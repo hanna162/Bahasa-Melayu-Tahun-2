@@ -1,0 +1,1044 @@
+<!doctype html>
+<html lang="ms"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260710-05-9ed98a3"}');</script><script src="/_sdk/f432b76fb310b513.telemetry_sdk.js" integrity="sha512-9FJQ55EKmmqhyyik8BhrMVfm0+iYYfb8uOlRsjtkxJMEI97qOVEI4PnHohDjQAtvAep0IOEpdQ64eki0sz62ug=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bahasa Melayu Tahun 2</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <style>
+    *{font-family:'DM Sans',sans-serif}
+    .view{display:none}.view.active{display:block}
+    @keyframes fadeIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+    @keyframes confetti-fall{0%{transform:translateY(-100%) rotate(0deg);opacity:1}100%{transform:translateY(100vh) rotate(720deg);opacity:0}}
+    .animate-in{animation:fadeIn .35s ease-out}
+    .animate-bounce{animation:bounce 2s infinite}
+    .animate-float{animation:float 3s ease-in-out infinite}
+    .confetti-piece{position:fixed;top:-10px;width:10px;height:10px;animation:confetti-fall 3s linear forwards;z-index:9999;pointer-events:none}
+    .menu-card{transition:all .2s}.menu-card:hover{transform:translateY(-3px);box-shadow:0 10px 20px rgba(0,0,0,.12)}.menu-card:active{transform:scale(.96)}
+    .xp-bar{transition:width .5s ease}
+    .btn-primary{background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;border-radius:12px;padding:12px 24px;font-weight:600;transition:all .2s}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 16px rgba(99,102,241,.4)}
+    .card-style{background:#fff;border-radius:16px;padding:20px;box-shadow:0 4px 12px rgba(0,0,0,.08)}
+    .gradient-bg{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%)}
+    .cloud{position:absolute;background:#fff;border-radius:50px;opacity:.6;animation:float 6s ease-in-out infinite}
+    .option-btn{border:2px solid #e2e8f0;border-radius:12px;padding:12px 16px;transition:all .2s;cursor:pointer;text-align:left;width:100%}
+    .option-btn:hover{border-color:#6366f1;background:#f0f0ff}
+    .option-btn.correct{border-color:#22c55e;background:#dcfce7}
+    .option-btn.wrong{border-color:#ef4444;background:#fee2e2}
+    .option-btn:disabled{cursor:default}
+    .dark .card-style{background:#1e293b;color:#e2e8f0;box-shadow:0 4px 12px rgba(0,0,0,.3)}
+    .dark .option-btn{border-color:#475569;color:#e2e8f0}
+    .dark .option-btn:hover{border-color:#6366f1;background:#312e81}
+    .dark .option-btn.correct{border-color:#22c55e;background:#14532d;color:#86efac}
+    .dark .option-btn.wrong{border-color:#ef4444;background:#450a0a;color:#fca5a5}
+    .dark body,.dark .min-h-screen{color:#e2e8f0}
+    .dark input,.dark textarea,.dark select{background:#334155;border-color:#475569;color:#e2e8f0}
+    .dark header.bg-white{background:#1e293b!important}
+    .dark .bg-gradient-to-b{background:linear-gradient(to bottom,#0f172a,#1e293b)!important}
+    .dark .text-gray-800,.dark .text-gray-700,.dark .text-gray-600{color:#cbd5e1}
+    .dark .text-gray-500{color:#94a3b8}
+    .dark .bg-gray-50,.dark .bg-white{background:#1e293b}
+    .progress-bar-segment{transition:width .4s ease}
+  </style>
+  <script src="/_sdk/0179d719c431a79e.data_sdk.js" type="text/javascript" integrity="sha512-OsRvJkI5GkC3MJQcgotQYotpzrMSX415GiKKgvYdxQEEkzD/fdchShO2FMSy0PJr/tiINMXOk5Vl2zAgg6bUiA=="></script>
+  <script src="/_sdk/9432170dbd2ae0df.resizing_sdk.js" type="text/javascript" integrity="sha512-FeT+58sb1f9ejWPWFjCbJvTT+SDwGV+ngrHUnlO7TWEOoqwOLj6p256kO3vOL7DIWl1cIgrobiof8v2bOigwPg=="></script>
+ </head>
+ <body data-template-id="__page-root" class="min-h-screen overflow-x-hidden" style="background: rgb(240, 249, 255);"><!-- WELCOME VIEW -->
+  <div id="view-welcome" class="view active">
+   <div id="welcome-bg" class="min-h-screen flex items-center justify-center p-4 relative overflow-hidden bg-cover bg-center" style="background-image:url('https://hanna162.github.io/Bahasa-Melayu-Tahun-2/background_image_BM.png')">
+    <div style="position:absolute;top:10%;left:5%;width:120px;height:40px;background:#fff;border-radius:50px;opacity:.3;animation:float 6s ease-in-out infinite"></div>
+    <div style="position:absolute;top:20%;right:10%;width:80px;height:30px;background:#fff;border-radius:50px;opacity:.3;animation:float 6s ease-in-out infinite 2s"></div>
+    <div class="card-style max-w-md w-full text-center animate-in relative z-10">
+     <div class="text-5xl mb-4 animate-bounce">
+      📚
+     </div>
+     <h1 data-template-id="app-title" class="canva-text text-2xl font-bold text-gray-800 mb-2" style="color: rgb(30, 41, 59); font-weight: 800; font-style: normal; font-size: 32px;">Bahasa Melayu Tahun 2</h1>
+     <p data-template-id="app-subtitle" class="canva-text text-gray-500 mb-6" style="color: rgb(100, 116, 139); font-weight: 500; font-style: normal; font-size: 16px;">Pembelajaran Interaktif KSSR Malaysia</p>
+     <div class="space-y-4 text-left">
+      <div>
+       <label class="text-sm font-medium text-gray-600 mb-1 block" for="input-name">Nama Murid</label><input id="input-name" type="text" placeholder="Masukkan nama anda" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-indigo-500 focus:outline-none">
+      </div>
+      <div>
+       <label class="text-sm font-medium text-gray-600 mb-1 block" for="input-age">Umur</label><input id="input-age" type="number" value="8" min="6" max="12" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-indigo-500 focus:outline-none">
+      </div>
+      <div>
+       <label class="text-sm font-medium text-gray-600 mb-1 block">Pilih Avatar</label>
+       <div id="avatar-grid" class="grid grid-cols-6 gap-2"></div>
+      </div>
+     </div><button onclick="startApp()" class="btn-primary w-full mt-6 text-lg">🚀 Mula Belajar</button>
+    </div>
+   </div>
+  </div><!-- DASHBOARD VIEW -->
+  <div id="view-dashboard" class="view">
+   <div class="min-h-screen bg-cover bg-center pb-24" style="background-image:url('https://hanna162.github.io/Bahasa-Melayu-Tahun-2/background_image_BM.png')">
+    <header class="gradient-bg text-white p-4 pb-16 relative overflow-hidden">
+     <div class="flex items-center justify-between">
+      <div class="flex items-center gap-3">
+       <div id="dash-avatar" class="text-3xl"></div>
+       <div>
+        <p class="font-bold text-lg" id="dash-name">Murid</p>
+        <p class="text-indigo-200 text-sm" id="dash-level">Tahap 1</p>
+       </div>
+      </div>
+      <div class="flex items-center gap-2">
+       <span class="bg-yellow-400 text-yellow-900 px-3 py-1 rounded-full text-sm font-bold" id="dash-coins">🪙 0</span><button onclick="toggleDarkMode()" class="p-2 rounded-full bg-white/20" aria-label="Tukar mod"><i data-lucide="moon" style="width:18px;height:18px;"></i></button><button onclick="showView('settings')" class="p-2 rounded-full bg-white/20" aria-label="Tetapan"><i data-lucide="settings" style="width:18px;height:18px;"></i></button>
+      </div>
+     </div>
+     <div class="mt-4">
+      <div class="flex justify-between text-sm mb-1">
+       <span id="dash-xp-text">0 XP</span><span id="dash-xp-next">100 XP</span>
+      </div>
+      <div class="bg-white/30 rounded-full h-3 overflow-hidden">
+       <div id="dash-xp-bar" class="xp-bar bg-yellow-400 h-full rounded-full" style="width:0%"></div>
+      </div>
+     </div>
+    </header>
+    <div class="px-4 -mt-12 relative z-10 mb-3">
+     <div class="card-style p-3">
+      <div class="flex items-center gap-2">
+       <i data-lucide="search" style="width:18px;height:18px;color:#6366f1"></i><input id="search-input" type="text" placeholder="Cari topik..." class="flex-1 text-sm border-0 outline-none bg-transparent" oninput="filterMenu()">
+      </div>
+     </div>
+    </div>
+    <div class="px-4 mb-3" id="daily-challenge-container"></div>
+    <div class="px-4 mb-3">
+     <div class="grid grid-cols-3 gap-3" id="menu-grid"></div>
+    </div>
+    <div class="px-4 mb-3 grid grid-cols-2 gap-3"><button onclick="showView('pencapaian')" class="card-style text-center hover:shadow-lg transition-shadow">
+      <div class="text-3xl mb-2">
+       🏆
+      </div>
+      <div class="font-bold text-sm">
+       Pencapaian
+      </div>
+      <div class="text-xs text-gray-500 mt-1" id="achievement-preview">
+       0 lencana
+      </div></button> <button onclick="showView('peperiksaan')" class="card-style text-center hover:shadow-lg transition-shadow">
+      <div class="text-3xl mb-2">
+       🎓
+      </div>
+      <div class="font-bold text-sm">
+       Peperiksaan
+      </div>
+      <div class="text-xs text-gray-500 mt-1">
+       3 set (UPSA &amp; UASA)
+      </div></button>
+    </div>
+    <div class="px-4 mt-0">
+     <div class="card-style">
+      <h3 class="font-bold text-gray-700 mb-3">📊 Kemajuan Minggu Ini</h3>
+      <div class="grid grid-cols-3 gap-3 text-center">
+       <div>
+        <div class="text-2xl font-bold text-indigo-600" id="stat-quiz">
+         0
+        </div>
+        <div class="text-xs text-gray-500">
+         Kuiz
+        </div>
+       </div>
+       <div>
+        <div class="text-2xl font-bold text-green-600" id="stat-correct">
+         0
+        </div>
+        <div class="text-xs text-gray-500">
+         Betul
+        </div>
+       </div>
+       <div>
+        <div class="text-2xl font-bold text-amber-600" id="stat-streak">
+         0
+        </div>
+        <div class="text-xs text-gray-500">
+         Hari Berturut
+        </div>
+       </div>
+      </div>
+      <div class="mt-4">
+       <p class="text-xs text-gray-500 mb-1">Sasaran Mingguan: 10 kuiz</p>
+       <div class="bg-gray-200 rounded-full h-2.5 overflow-hidden">
+        <div id="weekly-progress-bar" class="progress-bar-segment bg-gradient-to-r from-indigo-500 to-purple-500 h-full rounded-full" style="width:0%"></div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div><!-- NOTA VIEW -->
+  <div id="view-nota" class="view">
+   <div class="min-h-screen pb-8 bg-cover bg-center" style="background-image:url('https://hanna162.github.io/Bahasa-Melayu-Tahun-2/background_image_BM.png')">
+    <header class="bg-white shadow-sm p-4 flex items-center gap-3 sticky top-0 z-10">
+     <button onclick="showView('dashboard')" class="p-2 rounded-full hover:bg-gray-100" aria-label="Kembali"><i data-lucide="arrow-left" style="width:20px;height:20px;"></i></button>
+     <h2 class="font-bold text-lg">📖 Nota Pembelajaran</h2>
+    </header>
+    <div class="p-4 space-y-4" id="nota-content"></div>
+   </div>
+  </div><!-- MEMBACA VIEW -->
+  <div id="view-membaca" class="view">
+   <div class="min-h-screen pb-8 bg-cover bg-center" style="background-image:url('https://hanna162.github.io/Bahasa-Melayu-Tahun-2/background_image_BM.png')">
+    <header class="bg-white shadow-sm p-4 flex items-center gap-3 sticky top-0 z-10">
+     <button onclick="showView('dashboard')" class="p-2 rounded-full hover:bg-gray-100" aria-label="Kembali"><i data-lucide="arrow-left" style="width:20px;height:20px;"></i></button>
+     <h2 class="font-bold text-lg">📖 Membaca</h2>
+    </header>
+    <div class="p-4" id="membaca-content"></div>
+   </div>
+  </div><!-- PERMAINAN VIEW -->
+  <div id="view-permainan" class="view">
+   <div class="min-h-screen pb-8 bg-cover bg-center" style="background-image:url('https://hanna162.github.io/Bahasa-Melayu-Tahun-2/background_image_BM.png')">
+    <header class="bg-white shadow-sm p-4 flex items-center gap-3 sticky top-0 z-10">
+     <button onclick="showView('dashboard')" class="p-2 rounded-full hover:bg-gray-100" aria-label="Kembali"><i data-lucide="arrow-left" style="width:20px;height:20px;"></i></button>
+     <h2 class="font-bold text-lg">🎮 Permainan</h2>
+    </header>
+    <div class="p-4" id="permainan-content"></div>
+   </div>
+  </div><!-- KUIZ VIEW -->
+  <div id="view-kuiz" class="view">
+   <div class="min-h-screen pb-8 bg-cover bg-center" style="background-image:url('https://hanna162.github.io/Bahasa-Melayu-Tahun-2/background_image_BM.png')">
+    <header class="bg-white shadow-sm p-4 flex items-center gap-3 sticky top-0 z-10">
+     <button onclick="showView('dashboard')" class="p-2 rounded-full hover:bg-gray-100" aria-label="Kembali"><i data-lucide="arrow-left" style="width:20px;height:20px;"></i></button>
+     <h2 class="font-bold text-lg">❓ Kuiz</h2>
+    </header>
+    <div class="p-4" id="kuiz-content"></div>
+   </div>
+  </div><!-- LATIHAN VIEW -->
+  <div id="view-latihan" class="view">
+   <div class="min-h-screen pb-8 bg-cover bg-center" style="background-image:url('https://hanna162.github.io/Bahasa-Melayu-Tahun-2/background_image_BM.png')">
+    <header class="bg-white shadow-sm p-4 flex items-center gap-3 sticky top-0 z-10">
+     <button onclick="showView('dashboard')" class="p-2 rounded-full hover:bg-gray-100" aria-label="Kembali"><i data-lucide="arrow-left" style="width:20px;height:20px;"></i></button>
+     <h2 class="font-bold text-lg">📋 Latihan</h2>
+    </header>
+    <div class="p-4" id="latihan-content"></div>
+   </div>
+  </div><!-- PEPERIKSAAN VIEW -->
+  <div id="view-peperiksaan" class="view">
+   <div class="min-h-screen pb-8 bg-cover bg-center" style="background-image:url('https://hanna162.github.io/Bahasa-Melayu-Tahun-2/background_image_BM.png')">
+    <header class="bg-white shadow-sm p-4 flex items-center gap-3 sticky top-0 z-10">
+     <button onclick="showView('dashboard')" class="p-2 rounded-full hover:bg-gray-100" aria-label="Kembali"><i data-lucide="arrow-left" style="width:20px;height:20px;"></i></button>
+     <h2 class="font-bold text-lg">🎓 Peperiksaan</h2>
+    </header>
+    <div class="p-4" id="peperiksaan-content"></div>
+   </div>
+  </div><!-- PENCAPAIAN VIEW -->
+  <div id="view-pencapaian" class="view">
+   <div class="min-h-screen bg-gradient-to-b from-yellow-50 to-amber-50 pb-8 bg-cover bg-center" style="background-image:url('https://hanna162.github.io/Bahasa-Melayu-Tahun-2/background_image_BM.png')">
+    <header class="bg-white shadow-sm p-4 flex items-center gap-3 sticky top-0 z-10">
+     <button onclick="showView('dashboard')" class="p-2 rounded-full hover:bg-gray-100" aria-label="Kembali"><i data-lucide="arrow-left" style="width:20px;height:20px;"></i></button>
+     <h2 class="font-bold text-lg">🏆 Pencapaian</h2>
+    </header>
+    <div class="p-4" id="pencapaian-content"></div>
+   </div>
+  </div><!-- ULANG KAJI VIEW -->
+  <div id="view-ulangkaji" class="view">
+   <div class="min-h-screen bg-gradient-to-b from-lime-50 to-green-50 pb-8 bg-cover bg-center" style="background-image:url('https://hanna162.github.io/Bahasa-Melayu-Tahun-2/background_image_BM.png')">
+    <header class="bg-white shadow-sm p-4 flex items-center gap-3 sticky top-0 z-10">
+     <button onclick="showView('dashboard')" class="p-2 rounded-full hover:bg-gray-100" aria-label="Kembali"><i data-lucide="arrow-left" style="width:20px;height:20px;"></i></button>
+     <h2 class="font-bold text-lg">🔄 Ulang Kaji</h2>
+    </header>
+    <div class="p-4" id="ulangkaji-content"></div>
+   </div>
+  </div><!-- SETTINGS VIEW -->
+  <div id="view-settings" class="view">
+   <div class="min-h-screen bg-gradient-to-b from-gray-50 to-slate-50 pb-8 bg-cover bg-center" style="background-image:url('https://hanna162.github.io/Bahasa-Melayu-Tahun-2/background_image_BM.png')">
+    <header class="bg-white shadow-sm p-4 flex items-center gap-3 sticky top-0 z-10">
+     <button onclick="showView('dashboard')" class="p-2 rounded-full hover:bg-gray-100" aria-label="Kembali"><i data-lucide="arrow-left" style="width:20px;height:20px;"></i></button>
+     <h2 class="font-bold text-lg">⚙️ Tetapan</h2>
+    </header>
+    <div class="p-4 space-y-4" id="settings-content"></div>
+   </div>
+  </div>
+  <div id="confetti-container"></div>
+  <script src="/_sdk/719055fef2a85d14.editing_sdk.js" integrity="sha512-kFqrdGgIiTOsu307feB5Cy3JVP9IayftsmCIZ0csxYBGuBmJQPhyvcnmKR8F0fTW97h5s1gAvz3SumI8zJ6OxQ=="></script>
+  <script>
+const AVATARS=['👦','👧','🧒','👦🏽','👧🏽','🧒🏽'];
+let state={name:'',age:8,avatar:'👦',xp:0,coins:0,level:1,badges:[],quizHistory:[],examHistory:[],streak:0,lastDate:'',settings:{sound:true,dark:false},dailyChallengeDate:'',dailyChallengeCompleted:false,weeklyQuizCount:0,weeklyStart:''};
+
+function loadState(){const s=localStorage.getItem('bm2_state');if(s)state=JSON.parse(s);}
+function saveState(){localStorage.setItem('bm2_state',JSON.stringify(state));}
+function toggleDarkMode(){state.settings.dark=!state.settings.dark;document.documentElement.classList.toggle('dark',state.settings.dark);saveState();}
+function applyDarkMode(){document.documentElement.classList.toggle('dark',state.settings.dark);}
+
+const AudioCtx=window.AudioContext||window.webkitAudioContext;let audioCtx;
+function getAudioCtx(){if(!audioCtx)audioCtx=new AudioCtx();return audioCtx;}
+function playTone(freq,dur,type='sine'){if(!state.settings.sound)return;try{const ctx=getAudioCtx(),o=ctx.createOscillator(),g=ctx.createGain();o.type=type;o.frequency.value=freq;g.gain.value=0.12;o.connect(g);g.connect(ctx.destination);o.start();g.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+dur);o.stop(ctx.currentTime+dur);}catch(e){}}
+function playCorrect(){playTone(523,.1);setTimeout(()=>playTone(659,.1),100);setTimeout(()=>playTone(784,.2),200);}
+function playWrong(){playTone(200,.3,'sawtooth');}
+function playClick(){playTone(800,.05);}
+
+function showConfetti(){const c=document.getElementById('confetti-container');const colors=['#6366f1','#f59e0b','#22c55e','#ec4899','#06b6d4','#f97316'];for(let i=0;i<40;i++){const p=document.createElement('div');p.className='confetti-piece';p.style.left=Math.random()*100+'%';p.style.background=colors[Math.floor(Math.random()*colors.length)];p.style.animationDelay=Math.random()*2+'s';p.style.borderRadius=Math.random()>0.5?'50%':'0';c.appendChild(p);}setTimeout(()=>{c.innerHTML='';},4000);}
+
+function addXP(amount){state.xp+=amount;state.coins+=Math.floor(amount/2);const needed=state.level*100;if(state.xp>=needed){state.level++;state.xp-=needed;showConfetti();}saveState();updateDashboard();}
+
+function showView(id){
+  playClick();
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+  const view=document.getElementById('view-'+id);
+  if(view){view.classList.add('active');view.querySelector('.min-h-screen')?.classList.add('animate-in');}
+  if(id==='dashboard')updateDashboard();
+  if(id==='nota')renderNota();
+  if(id==='membaca')renderMembaca();
+  if(id==='permainan')renderPermainan();
+  if(id==='kuiz')renderKuiz();
+  if(id==='latihan')renderLatihan();
+  if(id==='peperiksaan')renderPeperiksaan();
+  if(id==='pencapaian')renderPencapaian();
+  if(id==='ulangkaji')renderUlangKaji();
+  if(id==='settings')renderSettings();
+  lucide.createIcons();
+}
+
+function startApp(){
+  const name=document.getElementById('input-name').value.trim();
+  if(!name){document.getElementById('input-name').style.borderColor='#ef4444';return;}
+  state.name=name;state.age=parseInt(document.getElementById('input-age').value)||8;
+  const today=new Date().toDateString();
+  if(state.lastDate&&state.lastDate!==today){const diff=(new Date(today)-new Date(state.lastDate))/86400000;if(diff<=1)state.streak++;else state.streak=1;}else if(!state.lastDate){state.streak=1;}
+  state.lastDate=today;
+  const weekStart=getWeekStart();
+  if(state.weeklyStart!==weekStart){state.weeklyQuizCount=0;state.weeklyStart=weekStart;}
+  saveState();showView('dashboard');
+}
+function getWeekStart(){const d=new Date();d.setDate(d.getDate()-d.getDay());return d.toDateString();}
+
+function filterMenu(){
+  const q=document.getElementById('search-input').value.toLowerCase();
+  document.querySelectorAll('#menu-grid .menu-card').forEach(c=>{c.style.display=c.dataset.label.toLowerCase().includes(q)?'':'none';});
+}
+
+const MENU_ITEMS=[
+  {id:'nota',icon:'📖',label:'Nota',color:'from-blue-400 to-blue-600'},
+  {id:'membaca',icon:'📚',label:'Membaca',color:'from-pink-400 to-rose-500'},
+  {id:'permainan',icon:'🎮',label:'Permainan',color:'from-purple-400 to-pink-500'},
+  {id:'kuiz',icon:'❓',label:'Kuiz',color:'from-indigo-400 to-violet-600'},
+  {id:'latihan',icon:'📋',label:'Latihan',color:'from-teal-400 to-green-500'},
+  {id:'ulangkaji',icon:'🔄',label:'Ulang Kaji',color:'from-lime-400 to-green-500'},
+];
+
+function renderMenuGrid(){
+  document.getElementById('menu-grid').innerHTML=MENU_ITEMS.map(m=>`<button onclick="showView('${m.id}')" data-label="${m.label}" class="menu-card bg-gradient-to-br ${m.color} rounded-2xl p-3 text-center text-white shadow-lg"><div class="text-2xl mb-1">${m.icon}</div><div class="text-xs font-semibold">${m.label}</div></button>`).join('');
+}
+
+function renderDailyChallenge(){
+  const today=new Date().toDateString();
+  if(state.dailyChallengeDate!==today){state.dailyChallengeCompleted=false;state.dailyChallengeDate=today;saveState();}
+  const container=document.getElementById('daily-challenge-container');
+  if(state.dailyChallengeCompleted){
+    container.innerHTML=`<div class="card-style border-2 border-green-200"><div class="flex items-center gap-3"><span class="text-2xl">✅</span><div><p class="font-bold text-green-700">Cabaran Harian Selesai!</p><p class="text-xs text-gray-500">Kembali esok untuk cabaran baharu.</p></div></div></div>`;
+  }else{
+    container.innerHTML=`<div class="card-style border-2 border-amber-200 bg-gradient-to-r from-amber-50 to-yellow-50"><div class="flex items-center gap-3"><span class="text-2xl animate-bounce">⭐</span><div class="flex-1"><p class="font-bold text-amber-800">Cabaran Harian</p><p class="text-xs text-gray-600">Jawab 5 soalan untuk mendapat 50 XP bonus!</p></div><button onclick="startDailyChallenge()" class="bg-amber-500 text-white px-3 py-2 rounded-xl text-sm font-bold hover:bg-amber-600">Mula</button></div></div>`;
+  }
+}
+
+function startDailyChallenge(){
+  window.dailyQ=[...KUIZ_BANK].sort(()=>Math.random()-0.5).slice(0,5);
+  window.dailyCurrent=0;window.dailyScore=0;
+  showDailyChallengeQuestion();
+}
+function showDailyChallengeQuestion(){
+  const container=document.getElementById('daily-challenge-container');
+  if(window.dailyCurrent>=window.dailyQ.length){
+    state.dailyChallengeCompleted=true;addXP(50);saveState();
+    showConfetti();renderDailyChallenge();return;
+  }
+  const q=window.dailyQ[window.dailyCurrent];
+  const shuffled=[...q.pilihan].sort(()=>Math.random()-0.5);
+  container.innerHTML=`<div class="card-style animate-in"><p class="text-xs text-amber-600 font-bold mb-2">⭐ Cabaran ${window.dailyCurrent+1}/5</p><p class="font-bold text-gray-800 mb-3">${q.s}</p><div class="space-y-2" id="daily-options">${shuffled.map(p=>`<button onclick="answerDaily(this)" class="option-btn" data-value="${encodeURIComponent(p)}">${p}</button>`).join('')}</div><div id="daily-fb" class="mt-3 hidden"></div></div>`;
+  window.dailyCorrect=q.jawapan;
+  window.dailyHuraian=q.huraian;
+}
+function answerDaily(btn){
+  const sel=decodeURIComponent(btn.dataset.value);
+  const opts=btn.parentElement.querySelectorAll('.option-btn');
+  opts.forEach(o=>{o.disabled=true;o.style.pointerEvents='none';});
+  const fb=document.getElementById('daily-fb');
+  const isCorrect=(sel===window.dailyCorrect);
+  if(isCorrect){btn.classList.add('correct');playCorrect();window.dailyScore++;fb.innerHTML=`<div class="bg-green-50 p-2 rounded-xl text-green-700 text-sm">✅ Betul! ${window.dailyHuraian}</div>`;}
+  else{btn.classList.add('wrong');playWrong();opts.forEach(o=>{if(decodeURIComponent(o.dataset.value)===window.dailyCorrect)o.classList.add('correct');});fb.innerHTML=`<div class="bg-red-50 p-2 rounded-xl text-red-700 text-sm">❌ ${window.dailyHuraian}</div>`;}
+  fb.classList.remove('hidden');
+  setTimeout(()=>{window.dailyCurrent++;showDailyChallengeQuestion();},2000);
+}
+
+function updateDashboard(){
+  document.getElementById('dash-name').textContent=state.name||'Murid';
+  document.getElementById('dash-avatar').textContent=state.avatar;
+  document.getElementById('dash-level').textContent='Tahap '+state.level;
+  document.getElementById('dash-coins').textContent='🪙 '+state.coins;
+  const needed=state.level*100;
+  document.getElementById('dash-xp-text').textContent=state.xp+' XP';
+  document.getElementById('dash-xp-next').textContent=needed+' XP';
+  document.getElementById('dash-xp-bar').style.width=(state.xp/needed*100)+'%';
+  document.getElementById('stat-quiz').textContent=state.quizHistory.length;
+  document.getElementById('stat-correct').textContent=state.quizHistory.filter(q=>q.correct).length;
+  document.getElementById('stat-streak').textContent=state.streak;
+  document.getElementById('weekly-progress-bar').style.width=Math.min(100,state.weeklyQuizCount/10*100)+'%';
+  const badges=[{name:'Pemula',req:1},{name:'Rajin',req:5},{name:'Bijak',req:10},{name:'Cemerlang',req:20},{name:'Pakar',req:50}];
+  const quizCount=state.quizHistory.length+state.examHistory.length;
+  const earned=badges.filter(b=>quizCount>=b.req).length;
+  document.getElementById('achievement-preview').textContent=earned+' lencana';
+  renderDailyChallenge();
+}
+
+// ============ DATA ============
+const TATABAHASA_DATA=[
+  {title:'Kata Nama',objektif:'Mengenal pasti dan menggunakan kata nama dengan betul.',desc:'Perkataan yang merujuk kepada orang, haiwan, benda atau tempat.',contoh:['kucing','sekolah','buku','ibu','Malaysia'],ayat:['Kucing itu sangat comel.','Saya pergi ke sekolah setiap hari.','Buku cerita ini menarik.'],tip:'Kata nama boleh dibahagikan kepada kata nama am dan kata nama khas.',rumusan:'Kata nama ialah perkataan yang menamakan orang, haiwan, benda, tempat atau perkara.'},
+  {title:'Kata Kerja',objektif:'Mengenal pasti dan menggunakan kata kerja dalam ayat.',desc:'Perkataan yang menunjukkan perbuatan atau tindakan.',contoh:['berlari','menulis','membaca','melompat','memasak'],ayat:['Adik berlari di padang.','Kakak menulis surat untuk nenek.','Ibu memasak nasi goreng di dapur.'],tip:'Kata kerja transitif memerlukan objek selepasnya.',rumusan:'Kata kerja menunjukkan perbuatan atau keadaan sesuatu.'},
+  {title:'Kata Adjektif',objektif:'Mengenal pasti kata adjektif dan menggunakannya untuk menerangkan kata nama.',desc:'Perkataan yang menerangkan sifat atau keadaan kata nama.',contoh:['cantik','besar','rajin','tinggi','manis'],ayat:['Bunga itu cantik sekali.','Rumah datuk saya sangat besar.','Murid itu rajin membuat kerja sekolah.'],tip:'Kata adjektif boleh didahului oleh kata penguat seperti "sangat" atau "amat".',rumusan:'Kata adjektif menerangkan sifat, keadaan atau perasaan.'},
+  {title:'Kata Hubung',objektif:'Menggunakan kata hubung untuk menggabungkan ayat.',desc:'Perkataan yang menghubungkan dua ayat atau frasa.',contoh:['dan','tetapi','atau','kerana','supaya'],ayat:['Ali dan Abu bermain bola.','Saya suka tetapi dia tidak suka.'],tip:'"Dan" menghubungkan dua perkara yang setara.',rumusan:'Kata hubung menyambungkan perkataan, frasa atau ayat.'},
+  {title:'Penjodoh Bilangan',objektif:'Memadankan penjodoh bilangan yang betul dengan kata nama.',desc:'Perkataan yang digunakan bersama kata bilangan untuk mengira benda.',contoh:['orang','ekor','buah','batang','helai'],ayat:['Tiga orang murid sedang berdiri.','Dua ekor burung terbang tinggi.'],tip:'"Orang" untuk manusia, "ekor" untuk haiwan, "buah" untuk benda besar.',rumusan:'Penjodoh bilangan mengklasifikasi benda yang dikira.'},
+  {title:'Imbuhan',objektif:'Mengenal pasti imbuhan awalan dan membentuk perkataan baharu.',desc:'Unsur yang ditambah pada kata dasar untuk membentuk perkataan baharu.',contoh:['me- + tulis = menulis','ber- + lari = berlari','pe- + lukis = pelukis'],ayat:['Adik sedang menulis karangan.','Ayah berlari di taman setiap pagi.'],tip:'Imbuhan "me-" membentuk kata kerja aktif, "di-" membentuk kata kerja pasif.',rumusan:'Imbuhan mengubah makna dan golongan kata dasar.'},
+];
+
+const KOSA_KATA_DATA=[
+  {word:'sekolah',maksud:'Tempat murid-murid belajar.',ayat:'Saya pergi ke sekolah setiap hari.',emoji:'🏫'},
+  {word:'buku',maksud:'Bahan bacaan yang mempunyai muka surat.',ayat:'Buku cerita ini sangat menarik.',emoji:'📖'},
+  {word:'guru',maksud:'Orang yang mengajar murid-murid.',ayat:'Guru saya sangat baik hati.',emoji:'👩‍🏫'},
+  {word:'kawan',maksud:'Orang yang rapat dan selalu bermain bersama.',ayat:'Ali ialah kawan baik saya.',emoji:'🤝'},
+  {word:'keluarga',maksud:'Ibu, bapa dan anak-anak yang tinggal bersama.',ayat:'Keluarga saya tinggal di Kuala Lumpur.',emoji:'👨‍👩‍👧‍👦'},
+  {word:'matahari',maksud:'Bintang yang memberikan cahaya pada siang hari.',ayat:'Matahari terbit dari arah timur.',emoji:'☀️'},
+  {word:'hujan',maksud:'Air yang turun dari awan di langit.',ayat:'Hujan turun dengan lebat petang tadi.',emoji:'🌧️'},
+  {word:'bunga',maksud:'Bahagian tumbuhan yang cantik dan berwarna-warni.',ayat:'Bunga mawar berwarna merah jambu.',emoji:'🌹'},
+  {word:'kucing',maksud:'Haiwan peliharaan yang berbulu lembut.',ayat:'Kucing saya suka makan ikan.',emoji:'🐱'},
+  {word:'sungai',maksud:'Aliran air yang besar dan panjang.',ayat:'Kami bermain di tepi sungai pada hujung minggu.',emoji:'🏞️'},
+];
+
+const PETIKAN_DATA=[
+  {tajuk:'Kucing Saya',teks:'Saya mempunyai seekor kucing. Nama kucing saya ialah Comel. Comel berbulu putih dan gebu. Dia suka makan ikan goreng. Setiap hari, saya memberi makan Comel pada waktu pagi dan petang. Comel suka bermain dengan bola benang. Apabila penat, Comel akan tidur di atas sofa. Saya sangat sayang akan Comel kerana dia teman setia saya.',soalan:[
+    {s:'Apakah nama kucing itu?',jawapan:'Comel',pilihan:['Comel','Putih','Manja','Tompok'],huraian:'"Nama kucing saya ialah Comel."'},
+    {s:'Apakah warna bulu kucing itu?',jawapan:'Putih',pilihan:['Hitam','Putih','Coklat','Oren'],huraian:'"Comel berbulu putih dan gebu."'},
+    {s:'Apakah makanan kegemaran Comel?',jawapan:'Ikan goreng',pilihan:['Nasi','Ikan goreng','Ayam','Roti'],huraian:'"Dia suka makan ikan goreng."'},
+    {s:'Di mana Comel tidur apabila penat?',jawapan:'Di atas sofa',pilihan:['Di lantai','Di atas sofa','Di katil','Di luar'],huraian:'"Comel akan tidur di atas sofa."'},
+  ]},
+  {tajuk:'Di Taman Permainan',teks:'Pada hari Sabtu, keluarga Ali pergi ke taman permainan. Taman itu besar dan cantik. Ada banyak pokok rendang dan bunga berwarna-warni. Ali bermain buaian bersama kakaknya. Adik Ali bermain gelongsor. Ibu dan ayah duduk di bangku sambil berbual. Mereka juga membawa bekal nasi lemak. Semua ahli keluarga berasa sangat gembira.',soalan:[
+    {s:'Bila keluarga Ali pergi ke taman?',jawapan:'Hari Sabtu',pilihan:['Hari Ahad','Hari Sabtu','Hari Isnin','Hari Rabu'],huraian:'"Pada hari Sabtu".'},
+    {s:'Apakah yang Ali buat di taman?',jawapan:'Bermain buaian',pilihan:['Bermain bola','Bermain buaian','Membaca buku','Berlari'],huraian:'"Ali bermain buaian bersama kakaknya."'},
+    {s:'Di mana ibu dan ayah duduk?',jawapan:'Di bangku',pilihan:['Di rumput','Di bangku','Di bawah pokok','Di gelongsor'],huraian:'"Ibu dan ayah duduk di bangku."'},
+    {s:'Apakah bekal yang dibawa?',jawapan:'Nasi lemak',pilihan:['Nasi goreng','Nasi lemak','Roti','Mee'],huraian:'"Membawa bekal nasi lemak."'},
+  ]},
+];
+
+const KUIZ_BANK=[
+  {s:'Pilih kata nama yang betul.',jawapan:'sekolah',pilihan:['berlari','sekolah','cantik','dan'],huraian:'"Sekolah" ialah kata nama kerana ia merujuk kepada tempat.'},
+  {s:'Pilih kata kerja yang betul.',jawapan:'menulis',pilihan:['menulis','cantik','buku','dia'],huraian:'"Menulis" ialah kata kerja kerana ia menunjukkan perbuatan.'},
+  {s:'Pilih penjodoh bilangan yang betul untuk "burung".',jawapan:'ekor',pilihan:['orang','ekor','buah','batang'],huraian:'Penjodoh bilangan untuk haiwan ialah "ekor".'},
+  {s:'"Ibu memasak di ___."',jawapan:'dapur',pilihan:['bilik','dapur','padang','kolam'],huraian:'Tempat memasak ialah dapur.'},
+  {s:'Kata adjektif dalam ayat "Bunga itu cantik." ialah...',jawapan:'cantik',pilihan:['bunga','itu','cantik','sangat'],huraian:'"Cantik" menerangkan sifat bunga.'},
+  {s:'Pilih kata sendi nama yang betul.',jawapan:'di',pilihan:['di','dan','itu','yang'],huraian:'"Di" ialah kata sendi nama yang menunjukkan tempat.'},
+  {s:'Apakah imbuhan awalan dalam perkataan "berlari"?',jawapan:'ber-',pilihan:['me-','ber-','di-','ke-'],huraian:'"Ber-" ialah imbuhan awalan dalam "berlari".'},
+  {s:'Pilih kata hubung: "Ali ___ Abu ke sekolah."',jawapan:'dan',pilihan:['dan','di','itu','yang'],huraian:'"Dan" menghubungkan dua kata nama.'},
+  {s:'Penjodoh bilangan untuk "pensil" ialah...',jawapan:'batang',pilihan:['buah','helai','batang','biji'],huraian:'Benda panjang seperti pensil menggunakan "batang".'},
+  {s:'Pilih ayat yang betul.',jawapan:'Saya pergi ke sekolah.',pilihan:['Saya pergi ke sekolah.','Saya pergi di sekolah.','Saya pergi pada sekolah.','Saya pergi untuk sekolah.'],huraian:'Kata sendi "ke" digunakan untuk menunjukkan arah tuju.'},
+  {s:'Kata ganti nama diri pertama ialah...',jawapan:'saya',pilihan:['dia','saya','mereka','kamu'],huraian:'"Saya" ialah kata ganti nama diri pertama.'},
+  {s:'Antonim (lawan) "besar" ialah...',jawapan:'kecil',pilihan:['kecil','tinggi','panjang','lebar'],huraian:'Lawan bagi "besar" ialah "kecil".'},
+  {s:'Sinonim (sama) "cantik" ialah...',jawapan:'indah',pilihan:['hodoh','indah','buruk','kotor'],huraian:'"Indah" membawa maksud yang sama dengan "cantik".'},
+  {s:'Lengkapkan: "Adik ___ susu sebelum tidur."',jawapan:'minum',pilihan:['minum','makan','tidur','bermain'],huraian:'"Minum" ialah kata kerja yang sesuai untuk susu.'},
+  {s:'Pilih kata nama khas.',jawapan:'Kuala Lumpur',pilihan:['bandar','sungai','Kuala Lumpur','gunung'],huraian:'"Kuala Lumpur" ialah kata nama khas.'},
+];
+
+// ============ PEPERIKSAAN DATA (Exact user questions) ============
+
+const EXAM_SET_1 = {
+  title: 'Set 1: UPSA',
+  subtitle: 'Ujian Pertengahan Sesi Akademik',
+  bahagianA: {
+    arahan: 'Bulatkan jawapan yang paling tepat.',
+    soalan: [
+      {s:'Pasangan pengantin itu berarak dengan jalan yang ________ sambil tersenyum.',jawapan:'B',pilihan:['A. cepat','B. perlahan','C. deras','D. kencang']},
+      {s:'"________, cantiknya baju kurung tradisional yang kamu pakai ini!" kata Priya kepada Siti.',jawapan:'B',pilihan:['A. Oh','B. Amboi','C. Aduh','D. Cis']},
+      {s:'Encik Hakimi menggunakan se________ gergaji yang ________ untuk memotong papan yang tebal itu.',jawapan:'A',pilihan:['A. bilah, tajam','B. bilah, tumpul','C. batang, panjang','D. buah, besar']},
+      {s:'Pilih ayat yang menggunakan Kata Hubung dengan betul.',jawapan:'B',pilihan:['A. Hana suka makan sayur kerana buah-buahan.','B. Haziq membasuh tangan lalu dia makan nasi.','C. Abang mahu membeli kasut biru sambil kasut hitam?','D. Kasut itu sangat cantik tetapi harganya murah.']},
+      {s:'Petani itu ________ tanah menggunakan cangkul sebelum menanam anak benih sayur.',jawapan:'B',pilihan:['A. menyiram','B. menggali','C. memotong','D. memetik']},
+    ]
+  },
+  bahagianB: {
+    arahan: 'Baca petikan di bawah, kemudian jawab soalan-soalan yang berikutnya.',
+    petikan: 'Setiap hujung minggu, Zara dan keluarganya akan membersihkan halaman rumah mereka. Ayah Zara menyapu daun-daun kering yang gugur lalu mengumpulkannya di dalam plastik sampah. Ibu pula memotong rumput yang sudah panjang dengan menggunakan mesin rumput. Zara membantu ibu menyiram pokok-pokok bunga seperti bunga raya dan bunga ros menggunakan penyiram. Aktiviti gotong-royong ini dapat memastikan kawasan rumah mereka sentiasa bersih dan bebas daripada pembiakan nyamuk Aedes.',
+    soalan: [
+      {s:'Bilakah Zara dan keluarganya membersihkan halaman rumah? (2 Markah)',type:'text',jawapan:['setiap hujung minggu','hujung minggu','pada setiap hujung minggu'],markah:2},
+      {s:'Apakah tugas yang dilakukan oleh ayah Zara? (2 Markah)',type:'text',jawapan:['menyapu daun-daun kering yang gugur lalu mengumpulkannya di dalam plastik sampah','menyapu daun-daun kering','menyapu daun kering'],markah:2},
+      {s:'Nyatakan dua jenis bunga yang disiram oleh Zara dalam petikan tersebut. (2 Markah)',type:'text2',jawapan1:['bunga raya'],jawapan2:['bunga ros'],markah:2},
+      {s:'Tandakan ( / ) pada pernyataan yang BETUL dan ( X ) pada pernyataan yang SALAH berdasarkan petikan. (4 Markah)',type:'betul_salah',pernyataan:[
+        {text:'Ibu Zara menyapu daun-daun kering di halaman rumah.',jawapan:'X'},
+        {text:'Aktiviti gotong-royong itu dapat mengelakkan pembiakan nyamuk Aedes.',jawapan:'/'},
+      ],markah:4},
+    ]
+  },
+  bahagianC: {
+    arahan: 'Susun perkataan di bawah supaya menjadi ayat yang betul dan lengkap.',
+    type: 'susun',
+    soalan: [
+      {perkataan:'menunggang / Zara / basikal / taman / di / sedang',jawapan:'Zara sedang menunggang basikal di taman.'},
+      {perkataan:'menyanyi / burung / atas / di / Seekor / pokok / sedang',jawapan:'Seekor burung sedang menyanyi di atas pokok.'},
+      {perkataan:'Ibu / yang / memasak / sedap / dapur / di / gulai',jawapan:'Ibu memasak gulai yang sedap di dapur.'},
+      {perkataan:'menjaga / Kita / kesihatan / hendaklah / diri / sentiasa',jawapan:'Kita hendaklah sentiasa menjaga kesihatan diri.'},
+      {perkataan:'sampah / Alif / ke / dalam / tong / sampah',jawapan:'Alif membuang sampah ke dalam tong sampah.'},
+    ]
+  }
+};
+
+const EXAM_SET_2 = {
+  title: 'Set 2: UASA Kertas 1',
+  subtitle: 'Ujian Akhir Sesi Akademik - Kertas 1',
+  bahagianA: {
+    arahan: 'Bulatkan jawapan yang paling tepat.',
+    soalan: [
+      {s:'Murid-murid Tahun 2 Gemilang beratur dengan ________ sebelum masuk ke dalam perpustakaan.',jawapan:'D',pilihan:['A. bising','B. senyap','C. laju','D. tertib']},
+      {s:'Sang Kancil sekeluarga tinggal di dalam ________ yang terletak di pinggir hutan itu.',jawapan:'C',pilihan:['A. rumah','B. reban','C. gua','D. kandang']},
+      {s:'Abang membeli tiga ________ sate dan se________ roti tempayan untuk makan malam.',jawapan:'A',pilihan:['A. cucuk, biji','B. batang, keping','C. cucuk, keping','D. urat, ketul']},
+      {s:'Suasana di puncak Gunung Kinabalu itu sangat ________ sehingga menggigil badan kami.',jawapan:'B',pilihan:['A. panas','B. sejuk','C. suam','D. nyaman']},
+      {s:'"________, sakitnya kaki saya kerana terlanggar batu yang besar itu!" jerit Mei Ling.',jawapan:'B',pilihan:['A. Aduhai','B. Aduh','C. Wah','D. Eh']},
+    ]
+  },
+  bahagianB: {
+    arahan: 'Baca dialog di bawah, kemudian jawab soalan-soalan yang berikutnya.',
+    petikan: 'Razi: Selamat petang, Anand. Kamu sedang buat apa itu?\nAnand: Selamat petang, Razi. Saya sedang mengasingkan botol plastik dan surat khabar lama ini.\nRazi: Mengapakah kamu mengumpulkannya?\nAnand: Barang-barang ini boleh dikitar semula. Ayah saya akan membawa semua barang ini ke pusat kitar semula pada hari Sabtu nanti. Kita mesti menjaga alam sekitar agar tidak tercemar.\nRazi: Bagus sungguh amalan keluarga kamu, Anand. Saya juga mahu mengumpul tin-tin kosong di rumah saya selepas ini.',
+    soalan: [
+      {s:'Apakah barang yang sedang diasingkan oleh Anand? (2 Markah)',type:'text',jawapan:['botol plastik dan surat khabar lama','mengasingkan botol plastik dan surat khabar lama'],markah:2},
+      {s:'Bilakah ayah Anand akan membawa barang-barang itu ke pusat kitar semula? (2 Markah)',type:'text',jawapan:['hari sabtu','pada hari sabtu nanti','hari sabtu nanti'],markah:2},
+      {s:'Mengapakah kita perlu mengitar semula barang-barang lama? (2 Markah)',type:'text',jawapan:['supaya alam sekitar tidak tercemar','agar tidak tercemar','menjaga alam sekitar','untuk menjaga alam sekitar'],markah:2},
+      {s:'Berdasarkan dialog, apakah barang yang mahu dikumpul oleh Razi di rumahnya dan berikan sebabnya. (4 Markah)',type:'text',jawapan:['tin-tin kosong','tin kosong','mengumpul tin-tin kosong'],markah:4},
+    ]
+  },
+  bahagianC: {
+    arahan: 'Bina ayat yang lengkap berdasarkan perkataan (Kata Kerja) yang diberikan.',
+    type: 'bina_ayat',
+    soalan: [
+      {kata:'membaca',contoh:'Kakak sedang membaca buku cerita yang menarik di atas sofa.'},
+      {kata:'menyapu',contoh:'Abang menyapu daun-daun kering di halaman rumah sehingga bersih.'},
+      {kata:'bermain',contoh:'Kumar dan kawan-kawannya bermain bola sepak di padang sekolah.'},
+      {kata:'membasuh',contoh:'Mei Ling membasuh tangan menggunakan sabun sebelum makan.'},
+      {kata:'membeli',contoh:'Ibu membeli sayur-sayuran yang segar di pasar tani.'},
+    ]
+  }
+};
+
+const EXAM_SET_3 = {
+  title: 'Set 3: UASA Kertas 2',
+  subtitle: 'Ujian Akhir Sesi Akademik - Kertas 2',
+  bahagianA: {
+    arahan: 'Isi tempat kosong dengan jawapan yang paling sesuai.',
+    soalan: [
+      {s:'Encik Lim merupakan seorang ________ yang sangat tegas ketika bertugas di balai polis.',jawapan:'C',pilihan:['A. guru','B. doktor','C. polis','D. bomba']},
+      {s:'Murid-murid dilarang membuat bising ________ berada di dalam bilik darjah.',jawapan:'A',pilihan:['A. semasa','B. hingga','C. supaya','D. agar']},
+      {s:'Air sungai itu mengalir dengan sangat ________ selepas hujan lebat turun semalam.',jawapan:'B',pilihan:['A. laju','B. deras','C. lambat','D. tenang']},
+      {s:'Ibu meletakkan dua ________ durian ke dalam piring untuk diberikan kepada nenek.',jawapan:'B',pilihan:['A. biji','B. ulas','C. potong','D. hiris']},
+      {s:'"________, besarnya bangunan Menara Berkembar Petronas ini!" kata pelancong itu.',jawapan:'C',pilihan:['A. Aduh','B. Cis','C. Wah','D. Syabas']},
+    ]
+  },
+  bahagianB: {
+    arahan: 'Baca petikan di bawah, kemudian jawab soalan-soalan yang berikutnya.',
+    petikan: 'Hari Kebangsaan Malaysia disambut pada 31 Ogos setiap tahun. Tujuannya adalah untuk menanam semangat cinta akan negara dalam kalangan rakyat. Pada hari tersebut, terdapat acara perarakan kereta berhias dan perbarisan pasukan keselamatan di Dataran Merdeka. Ramai orang datang membawa Jalur Gemilang untuk dikibarkan bersama-sama. Kita sebagai rakyat Malaysia mestilah sentiasa menghormati bendera negara kita dan menjaga perpaduan kaum.',
+    soalan: [
+      {s:'Bilakah Hari Kebangsaan Malaysia disambut? (2 Markah)',type:'text',jawapan:['31 ogos','pada 31 ogos','31 ogos setiap tahun','pada 31 ogos setiap tahun'],markah:2},
+      {s:'Di manakah acara perarakan kereta berhias itu biasanya diadakan? (2 Markah)',type:'text',jawapan:['dataran merdeka','di dataran merdeka'],markah:2},
+      {s:'Apakah nama bendera negara Malaysia? (2 Markah)',type:'text',jawapan:['jalur gemilang'],markah:2},
+      {s:'Berdasarkan petikan, tulis dua Nilai Murni yang perlu diamalkan oleh rakyat Malaysia. (4 Markah)',type:'text2',jawapan1:['menghormati bendera negara','sentiasa menghormati bendera negara kita','menghormati bendera','menghormati'],jawapan2:['menjaga perpaduan kaum','perpaduan kaum','menjaga'],markah:4},
+    ]
+  },
+  bahagianC: {
+    arahan: 'Isi tempat kosong dengan perkataan yang sesuai untuk melengkapkan cerita di bawah.',
+    type: 'isi_cerita',
+    pilihanKata: ['gembira','kolam','memancing','ikan','ubi rebus'],
+    cerita: 'Pada hari Ahad yang lalu, Arif pergi [10] _________ bersama datuknya ke [11] _________ ikan. Mereka membawa joran dan umpan. Datuk Arif mengajar cara-cara memasang umpan dengan betul. Selepas beberapa jam menunggu, Arif berjaya menangkap seekor [12] _________ yang sangat besar. Pada waktu petang, nenek menghidangkan [13] _________ dan air teh sebagai makanan ringan mereka. Arif berasa sangat [14] _________ kerana dapat meluangkan masa bersama datuk dan neneknya.',
+    soalan: [
+      {no:10,jawapan:'memancing'},
+      {no:11,jawapan:'kolam'},
+      {no:12,jawapan:'ikan'},
+      {no:13,jawapan:'ubi rebus'},
+      {no:14,jawapan:'gembira'},
+    ]
+  }
+};
+
+const ALL_EXAM_SETS = [EXAM_SET_1, EXAM_SET_2, EXAM_SET_3];
+
+// ============ GENERIC ANSWER CHECKER ============
+function checkAnswer(btn,feedbackId,onCorrect,onWrong){
+  const selected=decodeURIComponent(btn.dataset.value);
+  const correct=decodeURIComponent(btn.parentElement.dataset.correct);
+  const huraian=btn.parentElement.dataset.huraian?decodeURIComponent(btn.parentElement.dataset.huraian):'';
+  const opts=btn.parentElement.querySelectorAll('.option-btn');
+  opts.forEach(o=>{o.disabled=true;o.style.pointerEvents='none';});
+  const fb=document.getElementById(feedbackId);
+  const isCorrect=(selected===correct);
+  if(isCorrect){btn.classList.add('correct');playCorrect();fb.innerHTML=`<div class="bg-green-50 p-3 rounded-xl text-green-700">✅ Betul!${huraian?' '+huraian:''}</div>`;if(onCorrect)onCorrect();}
+  else{btn.classList.add('wrong');playWrong();opts.forEach(o=>{if(decodeURIComponent(o.dataset.value)===correct)o.classList.add('correct');});fb.innerHTML=`<div class="bg-red-50 p-3 rounded-xl text-red-700">❌ Jawapan betul: ${correct}.${huraian?' '+huraian:''}</div>`;if(onWrong)onWrong();}
+  fb.classList.remove('hidden');
+  return isCorrect;
+}
+
+// ============ FLEXIBLE ANSWER MATCHING ============
+function flexMatch(input, acceptedAnswers, isFullAnswer=true){
+  // Minimum 2 characters to avoid single letters like 'i'
+  if(input.length<2) return {match:false, score:0};
+  
+  const norm=s=>s.toLowerCase().replace(/[.,!?]/g,'').trim();
+  const n=norm(input);
+  
+  // Check for exact or near-exact match with full answer
+  for(let a of acceptedAnswers){
+    const nA=norm(a);
+    // Exact match = full marks
+    if(n===nA) return {match:true, score:1, type:'exact'};
+    
+    // Partial credit: input is substantial substring of correct answer (≥50% of length)
+    // E.g., "31 ogos setiap tahun" is 50% of "hari kebangsaan malaysia disambut pada 31 ogos setiap tahun"
+    if(nA.includes(n) && n.length / nA.length >= 0.5){
+      return {match:true, score:0.5, type:'partial'};
+    }
+    // Or input contains the entire correct answer phrase
+    if(n.includes(nA)){
+      return {match:true, score:0.5, type:'partial'};
+    }
+  }
+  return {match:false, score:0};
+}
+
+// ============ NOTA ============
+function renderNota(){
+  const c=document.getElementById('nota-content');
+  c.innerHTML=`<div class="space-y-4"><div class="card-style animate-in"><h3 class="font-bold text-lg text-blue-700">📚 Nota Bahasa Melayu Tahun 2</h3></div><div class="card-style animate-in"><h4 class="font-bold text-green-700 mb-3">📝 Tatabahasa</h4><div class="space-y-2">${TATABAHASA_DATA.map((t,i)=>`<button onclick="showTatabahasaDetail(${i})" class="card-style w-full text-left hover:shadow-lg transition-shadow p-3"><div class="flex items-center gap-2"><div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center text-sm font-bold text-green-700">${i+1}</div><div><h5 class="font-bold text-sm text-gray-800">${t.title}</h5><p class="text-xs text-gray-500">${t.desc.slice(0,40)}...</p></div></div></button>`).join('')}</div></div><div class="card-style animate-in"><h4 class="font-bold text-yellow-700 mb-3">🔤 Kosa Kata</h4><div class="grid grid-cols-3 gap-2">${KOSA_KATA_DATA.map((k,i)=>`<button onclick="showKosaDetail(${i})" class="card-style text-center hover:shadow-lg transition-shadow p-2"><div class="text-2xl mb-1">${k.emoji}</div><div class="font-bold text-xs text-gray-800">${k.word}</div></button>`).join('')}</div></div></div>`;
+}
+function showTatabahasaDetail(i){
+  const t=TATABAHASA_DATA[i];const c=document.getElementById('nota-content');
+  c.innerHTML=`<button onclick="renderNota()" class="text-green-600 font-medium mb-3 flex items-center gap-1"><i data-lucide="arrow-left" style="width:16px;height:16px;"></i> Kembali</button><div class="card-style animate-in"><h3 class="font-bold text-xl text-green-700 mb-1">${t.title}</h3><div class="bg-yellow-50 border-l-4 border-yellow-400 p-2 rounded mb-3"><p class="text-xs text-yellow-800 font-semibold">🎯 Objektif: ${t.objektif}</p></div><p class="text-gray-600 mb-3">${t.desc}</p><div class="bg-green-50 p-3 rounded-xl mb-3"><p class="font-semibold text-green-800 mb-2">📌 Contoh:</p><div class="flex flex-wrap gap-2">${t.contoh.map(c=>`<span class="bg-white px-3 py-1 rounded-full text-sm shadow-sm">${c}</span>`).join('')}</div></div><div class="bg-blue-50 p-3 rounded-xl mb-3"><p class="font-semibold text-blue-800 mb-2">📝 Contoh Ayat:</p><ul class="space-y-1 text-sm text-blue-700">${t.ayat.map(a=>`<li>• ${a}</li>`).join('')}</ul></div><div class="bg-amber-50 border-l-4 border-amber-400 p-3 rounded-xl mb-3"><p class="font-semibold text-amber-800">💡 Tip:</p><p class="text-sm text-amber-700">${t.tip}</p></div><div class="bg-purple-50 p-3 rounded-xl"><p class="font-semibold text-purple-800">📋 Rumusan:</p><p class="text-sm text-purple-700">${t.rumusan}</p></div></div>`;
+  lucide.createIcons();
+}
+function showKosaDetail(i){
+  const k=KOSA_KATA_DATA[i];const c=document.getElementById('nota-content');
+  c.innerHTML=`<button onclick="renderNota()" class="text-orange-600 font-medium mb-3 flex items-center gap-1"><i data-lucide="arrow-left" style="width:16px;height:16px;"></i> Kembali</button><div class="card-style animate-in text-center"><div class="text-5xl mb-3 animate-bounce">${k.emoji}</div><h3 class="text-2xl font-bold text-gray-800 mb-2">${k.word}</h3><div class="bg-yellow-50 p-3 rounded-xl mb-3"><p class="font-semibold text-yellow-800">📖 Maksud:</p><p class="text-yellow-700">${k.maksud}</p></div><div class="bg-blue-50 p-3 rounded-xl"><p class="font-semibold text-blue-800">📝 Contoh Ayat:</p><p class="text-blue-700 italic">"${k.ayat}"</p></div></div>`;
+  lucide.createIcons();
+}
+
+// ============ MEMBACA ============
+function renderMembaca(){
+  const c=document.getElementById('membaca-content');
+  c.innerHTML=`<p class="text-gray-600 mb-4">Pilih petikan untuk dibaca dan jawab soalan.</p><div class="space-y-3">${PETIKAN_DATA.map((p,i)=>`<button onclick="showPetikan(${i})" class="card-style w-full text-left hover:shadow-lg transition-shadow"><div class="flex items-center gap-3"><div class="text-2xl">📄</div><div><h4 class="font-bold">${p.tajuk}</h4><p class="text-xs text-gray-500">${p.soalan.length} soalan pemahaman</p></div></div></button>`).join('')}</div>`;
+}
+function showPetikan(i){
+  const p=PETIKAN_DATA[i];const c=document.getElementById('membaca-content');
+  c.innerHTML=`<button onclick="renderMembaca()" class="text-pink-600 font-medium mb-3 flex items-center gap-1"><i data-lucide="arrow-left" style="width:16px;height:16px;"></i> Kembali</button><div class="card-style animate-in"><h3 class="font-bold text-lg text-pink-700 mb-3">${p.tajuk}</h3><div class="bg-pink-50 p-4 rounded-xl leading-relaxed text-gray-700 mb-4">${p.teks}</div><button onclick="startMembacaQuiz(${i})" class="btn-primary w-full">🧠 Jawab Soalan Pemahaman</button></div>`;
+  lucide.createIcons();
+}
+let membacaState={idx:0,qIdx:0,score:0};
+function startMembacaQuiz(idx){membacaState={idx,qIdx:0,score:0};showMembacaQ();}
+function showMembacaQ(){
+  const p=PETIKAN_DATA[membacaState.idx];const c=document.getElementById('membaca-content');
+  if(membacaState.qIdx>=p.soalan.length){
+    addXP(25);if(membacaState.score===p.soalan.length)showConfetti();
+    c.innerHTML=`<div class="card-style animate-in text-center"><div class="text-4xl mb-3">🎉</div><h3 class="font-bold text-xl text-green-700">Tahniah!</h3><p class="text-gray-600 mt-2">Skor anda: ${membacaState.score}/${p.soalan.length}</p><button onclick="renderMembaca()" class="btn-primary mt-4">Kembali</button></div>`;
+    return;
+  }
+  const q=p.soalan[membacaState.qIdx];const shuffled=[...q.pilihan].sort(()=>Math.random()-0.5);
+  c.innerHTML=`<div class="card-style animate-in"><div class="bg-gray-50 p-3 rounded-xl mb-4 text-sm text-gray-600 max-h-28 overflow-y-auto">${p.teks}</div><p class="text-xs text-gray-500 mb-1">Soalan ${membacaState.qIdx+1}/${p.soalan.length}</p><p class="font-bold text-gray-800 mb-3">${q.s}</p><div class="space-y-2" data-correct="${encodeURIComponent(q.jawapan)}" data-huraian="${encodeURIComponent(q.huraian)}">${shuffled.map(pl=>`<button onclick="handleMembacaAnswer(this)" class="option-btn" data-value="${encodeURIComponent(pl)}">${pl}</button>`).join('')}</div><div id="membaca-fb" class="mt-3 hidden"></div></div>`;
+}
+function handleMembacaAnswer(btn){
+  const isCorrect=checkAnswer(btn,'membaca-fb',null,null);
+  if(isCorrect){membacaState.score++;addXP(10);}
+  setTimeout(()=>{membacaState.qIdx++;showMembacaQ();},2200);
+}
+
+// ============ PERMAINAN ============
+function renderPermainan(){
+  const c=document.getElementById('permainan-content');
+  c.innerHTML=`<p class="text-gray-600 mb-4">Pilih permainan untuk mendapat XP!</p><div class="grid grid-cols-1 gap-3"><button onclick="startMemoryGame()" class="card-style text-center hover:shadow-lg p-4"><div class="text-4xl mb-3">🃏</div><h4 class="font-bold">Kad Memori</h4><p class="text-xs text-gray-500 mt-1">Padankan emoji dengan perkataan</p></button><button onclick="startTekaKata()" class="card-style text-center hover:shadow-lg p-4"><div class="text-4xl mb-3">🔤</div><h4 class="font-bold">Teka Kata</h4><p class="text-xs text-gray-500 mt-1">Teka perkataan dengan huruf bantuan</p></button></div>`;
+}
+function startMemoryGame(){
+  const c=document.getElementById('permainan-content');
+  const pairs=KOSA_KATA_DATA.slice(0,6).flatMap(k=>[{id:k.word,val:k.emoji,type:'emoji'},{id:k.word,val:k.word,type:'word'}]);
+  const shuffled=pairs.sort(()=>Math.random()-0.5);
+  c.innerHTML=`<button onclick="renderPermainan()" class="text-purple-600 font-medium mb-3 flex items-center gap-1"><i data-lucide="arrow-left" style="width:16px;height:16px;"></i> Kembali</button><h4 class="font-bold mb-4">🃏 Kad Memori</h4><div class="grid grid-cols-4 gap-2" id="memory-grid">${shuffled.map((p,i)=>`<button onclick="flipCard(${i})" id="mc-${i}" data-id="${p.id}" data-val="${p.val}" class="aspect-square bg-indigo-500 rounded-xl flex items-center justify-center text-2xl font-bold shadow-md hover:bg-indigo-600 transition-all text-white">?</button>`).join('')}</div><p class="text-center mt-4 text-sm text-gray-500" id="memory-status">Pilih dua kad</p>`;
+  lucide.createIcons();
+  window.memoryState={flipped:[],matched:0,total:6};
+}
+function flipCard(i){const ms=window.memoryState;if(ms.flipped.length>=2)return;const card=document.getElementById('mc-'+i);if(card.dataset.flipped==='true')return;card.dataset.flipped='true';card.textContent=card.dataset.val;card.classList.remove('bg-indigo-500');card.classList.add('bg-white','text-gray-800','border-2','border-indigo-300');ms.flipped.push(i);if(ms.flipped.length===2){const[a,b]=ms.flipped;const ca=document.getElementById('mc-'+a),cb=document.getElementById('mc-'+b);if(ca.dataset.id===cb.dataset.id&&a!==b){playCorrect();ms.matched++;ms.flipped=[];ca.classList.add('bg-green-100','border-green-400');cb.classList.add('bg-green-100','border-green-400');if(ms.matched===ms.total){document.getElementById('memory-status').textContent='🎉 Tahniah!';addXP(40);showConfetti();}}else{playWrong();setTimeout(()=>{ca.textContent='?';cb.textContent='?';ca.dataset.flipped='false';cb.dataset.flipped='false';ca.classList.remove('bg-white','text-gray-800','border-2','border-indigo-300');ca.classList.add('bg-indigo-500');cb.classList.remove('bg-white','text-gray-800','border-2','border-indigo-300');cb.classList.add('bg-indigo-500');ms.flipped=[];},800);}}}
+
+function startTekaKata(){
+  const c=document.getElementById('permainan-content');
+  const words=KOSA_KATA_DATA.map(k=>k.word);
+  window.tekaState={word:words[Math.floor(Math.random()*words.length)],guessed:new Set(),wrong:0,maxWrong:6};
+  renderTekaKata(c);
+}
+function renderTekaKata(c){if(!c)c=document.getElementById('permainan-content');const ts=window.tekaState;const display=ts.word.split('').map((l,i)=>ts.guessed.has(l)||i===0||i===ts.word.length-1?l:'_').join('');const won=!display.includes('_');const lost=ts.wrong>=ts.maxWrong;const letters='abcdefghijklmnopqrstuvwxyz'.split('');c.innerHTML=`<button onclick="renderPermainan()" class="text-purple-600 font-medium mb-3 flex items-center gap-1"><i data-lucide="arrow-left" style="width:16px;height:16px;"></i> Kembali</button><div class="card-style animate-in text-center"><h4 class="font-bold mb-4">🔤 Teka Kata</h4><div class="flex justify-center gap-1 mb-4">${Array(ts.maxWrong).fill(0).map((_,i)=>`<span class="text-2xl">${i<ts.wrong?'❌':'❤️'}</span>`).join('')}</div><p class="text-4xl font-mono font-bold tracking-widest mb-4">${display}</p>${won?'<p class="text-green-600 font-bold text-lg mb-2">🎉 Tahniah!</p>':lost?`<p class="text-red-600 font-bold mb-2">Perkataan: ${ts.word}</p>`:''}<div class="flex flex-wrap gap-1 justify-center mb-4">${letters.map(l=>`<button onclick="guessTekaLetter('${l}')" class="w-8 h-8 rounded-lg ${ts.guessed.has(l)?'bg-gray-200 text-gray-400':'bg-indigo-100 text-indigo-700 hover:bg-indigo-200'} font-bold text-sm" ${ts.guessed.has(l)||won||lost?'disabled':''}>${l}</button>`).join('')}</div>${won||lost?'<button onclick="startTekaKata()" class="btn-primary w-full">Main Lagi</button>':''}</div>`;if(won){addXP(35);showConfetti();}lucide.createIcons();}
+function guessTekaLetter(l){const ts=window.tekaState;ts.guessed.add(l);if(!ts.word.includes(l)){ts.wrong++;playWrong();}else{playClick();}renderTekaKata();}
+
+// ============ KUIZ ============
+function renderKuiz(){
+  const c=document.getElementById('kuiz-content');
+  c.innerHTML=`<div class="card-style animate-in text-center"><div class="text-4xl mb-3 animate-bounce">❓</div><h3 class="font-bold text-xl mb-2">Kuiz Bahasa Melayu</h3><p class="text-gray-600 mb-4">10 soalan rawak. Jawapan betul = 10 XP!</p><button onclick="startKuiz()" class="btn-primary w-full">🚀 Mula Kuiz</button></div>`;
+}
+let kuizState={questions:[],current:0,score:0};
+function startKuiz(){kuizState.questions=[...KUIZ_BANK].sort(()=>Math.random()-0.5).slice(0,10);kuizState.current=0;kuizState.score=0;showKuizQ();}
+function showKuizQ(){
+  const c=document.getElementById('kuiz-content');
+  if(kuizState.current>=kuizState.questions.length){
+    const pct=Math.round(kuizState.score/kuizState.questions.length*100);
+    state.quizHistory.push({date:new Date().toISOString(),score:kuizState.score,total:kuizState.questions.length,correct:kuizState.score>0});
+    state.weeklyQuizCount++;saveState();if(pct>=80)showConfetti();
+    c.innerHTML=`<div class="card-style animate-in text-center"><div class="text-5xl mb-3">${pct>=80?'🏆':pct>=50?'👍':'💪'}</div><h3 class="font-bold text-xl mb-2">Keputusan Kuiz</h3><p class="text-3xl font-bold text-indigo-600">${kuizState.score}/${kuizState.questions.length}</p><p class="text-gray-500 mt-1">${pct}% betul</p><div class="flex gap-2 mt-4"><button onclick="startKuiz()" class="btn-primary flex-1">Cuba Lagi</button><button onclick="showView('dashboard')" class="flex-1 border-2 border-gray-200 rounded-xl py-3 font-semibold">Kembali</button></div></div>`;
+    return;
+  }
+  const q=kuizState.questions[kuizState.current];const shuffled=[...q.pilihan].sort(()=>Math.random()-0.5);
+  c.innerHTML=`<div class="card-style animate-in"><div class="flex justify-between items-center mb-3"><span class="text-sm text-gray-500">Soalan ${kuizState.current+1}/${kuizState.questions.length}</span><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full text-xs font-bold">⭐ ${kuizState.score*10} XP</span></div><div class="bg-gray-100 rounded-full h-2 mb-4"><div class="bg-indigo-500 h-full rounded-full" style="width:${(kuizState.current/kuizState.questions.length)*100}%"></div></div><p class="font-bold text-gray-800 text-lg mb-4">${q.s}</p><div class="space-y-2" data-correct="${encodeURIComponent(q.jawapan)}" data-huraian="${encodeURIComponent(q.huraian)}">${shuffled.map(p=>`<button onclick="handleKuizAnswer(this)" class="option-btn" data-value="${encodeURIComponent(p)}">${p}</button>`).join('')}</div><div id="kuiz-fb" class="mt-3 hidden"></div></div>`;
+}
+function handleKuizAnswer(btn){
+  const isCorrect=checkAnswer(btn,'kuiz-fb',null,null);
+  if(isCorrect){kuizState.score++;addXP(10);}
+  setTimeout(()=>{kuizState.current++;showKuizQ();},2000);
+}
+
+// ============ LATIHAN ============
+function renderLatihan(){
+  const c=document.getElementById('latihan-content');
+  c.innerHTML=`<p class="text-gray-600 mb-4">Pilih tahap kesukaran:</p><div class="space-y-3"><button onclick="startLatihan(5)" class="card-style w-full text-left hover:shadow-lg"><span class="text-2xl mr-2">🟢</span><span class="font-bold">Mudah</span> <span class="text-xs text-gray-500">— 5 soalan</span></button><button onclick="startLatihan(8)" class="card-style w-full text-left hover:shadow-lg"><span class="text-2xl mr-2">🟡</span><span class="font-bold">Sederhana</span> <span class="text-xs text-gray-500">— 8 soalan</span></button><button onclick="startLatihan(12)" class="card-style w-full text-left hover:shadow-lg"><span class="text-2xl mr-2">🔴</span><span class="font-bold">Sukar</span> <span class="text-xs text-gray-500">— 12 soalan</span></button></div>`;
+}
+let latihanState={questions:[],current:0,score:0};
+function startLatihan(count){latihanState.questions=[...KUIZ_BANK].sort(()=>Math.random()-0.5).slice(0,Math.min(count,KUIZ_BANK.length));latihanState.current=0;latihanState.score=0;showLatihanQ();}
+function showLatihanQ(){
+  const c=document.getElementById('latihan-content');
+  if(latihanState.current>=latihanState.questions.length){
+    c.innerHTML=`<div class="card-style animate-in text-center"><div class="text-4xl mb-3">🎉</div><h3 class="font-bold">Selesai!</h3><p class="text-xl font-bold text-indigo-600 mt-2">${latihanState.score}/${latihanState.questions.length}</p><button onclick="renderLatihan()" class="btn-primary mt-4">Kembali</button></div>`;
+    if(latihanState.score===latihanState.questions.length)showConfetti();return;
+  }
+  const q=latihanState.questions[latihanState.current];const shuffled=[...q.pilihan].sort(()=>Math.random()-0.5);
+  c.innerHTML=`<button onclick="renderLatihan()" class="text-teal-600 font-medium mb-3 flex items-center gap-1"><i data-lucide="arrow-left" style="width:16px;height:16px;"></i> Kembali</button><div class="card-style animate-in"><p class="text-sm text-gray-500 mb-2">Soalan ${latihanState.current+1}/${latihanState.questions.length}</p><p class="font-bold text-gray-800 mb-4">${q.s}</p><div class="space-y-2" data-correct="${encodeURIComponent(q.jawapan)}" data-huraian="${encodeURIComponent(q.huraian)}">${shuffled.map(p=>`<button onclick="handleLatihanAnswer(this)" class="option-btn" data-value="${encodeURIComponent(p)}">${p}</button>`).join('')}</div><div id="latihan-fb" class="mt-3 hidden"></div></div>`;
+  lucide.createIcons();
+}
+function handleLatihanAnswer(btn){
+  const isCorrect=checkAnswer(btn,'latihan-fb',null,null);
+  if(isCorrect){latihanState.score++;addXP(10);}
+  setTimeout(()=>{latihanState.current++;showLatihanQ();},2000);
+}
+
+// ============ PEPERIKSAAN (Updated with 3 bahagian per set) ============
+let examState = {setIdx:0, phase:'menu', sectionIdx:0, qIdx:0, scoreA:0, scoreB:0, scoreC:0};
+
+function renderPeperiksaan(){
+  examState.phase='menu';
+  const c=document.getElementById('peperiksaan-content');
+  c.innerHTML=`<p class="text-gray-600 mb-4">Pilih set peperiksaan. Setiap set mengandungi 3 bahagian: Tatabahasa (A), Pemahaman (B) dan Penulisan (C).</p><div class="space-y-3">${ALL_EXAM_SETS.map((s,i)=>`<button onclick="startExamSet(${i})" class="card-style w-full text-left hover:shadow-lg"><div class="flex items-center gap-3"><div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center font-bold text-red-700">${i+1}</div><div><h4 class="font-bold">${s.title}</h4><p class="text-xs text-gray-500">${s.subtitle}</p><p class="text-xs text-gray-400">Bahagian A + B + C (14 soalan, 30 markah)</p></div></div></button>`).join('')}</div>`;
+}
+
+function startExamSet(idx){
+  examState={setIdx:idx,phase:'A',qIdx:0,scoreA:0,scoreB:0,scoreC:0};
+  showExamSection();
+}
+
+function showExamSection(){
+  const c=document.getElementById('peperiksaan-content');
+  const set=ALL_EXAM_SETS[examState.setIdx];
+
+  if(examState.phase==='A'){
+    showExamA(c,set);
+  } else if(examState.phase==='B'){
+    showExamB(c,set);
+  } else if(examState.phase==='C'){
+    showExamC(c,set);
+  } else if(examState.phase==='result'){
+    showExamResult(c,set);
+  }
+}
+
+// Bahagian A - MCQ
+function showExamA(c,set){
+  if(examState.qIdx>=set.bahagianA.soalan.length){
+    examState.phase='B';examState.qIdx=0;
+    // Transition screen
+    c.innerHTML=`<div class="card-style animate-in text-center"><div class="text-4xl mb-3">📖</div><h3 class="font-bold text-lg">Bahagian B: Pemahaman</h3><p class="text-gray-600 text-sm mb-2">${set.bahagianB.arahan}</p><button onclick="showExamSection()" class="btn-primary mt-4 w-full">Teruskan →</button></div>`;
+    return;
+  }
+  const q=set.bahagianA.soalan[examState.qIdx];
+  const progress=((examState.qIdx)/14)*100;
+  c.innerHTML=`<div class="card-style animate-in"><div class="flex justify-between mb-2"><span class="font-bold text-sm text-red-700">${set.title} — Bahagian A</span><span class="text-sm text-gray-500">Soalan ${examState.qIdx+1}/5</span></div><div class="bg-gray-100 rounded-full h-2 mb-4"><div class="bg-red-500 h-full rounded-full" style="width:${progress}%"></div></div><p class="text-xs text-gray-500 mb-2">${set.bahagianA.arahan}</p><p class="font-bold text-gray-800 mb-4">${q.s}</p><div class="space-y-2" id="exam-options">${q.pilihan.map(p=>`<button onclick="handleExamAAnswer(this,'${q.jawapan}')" class="option-btn" data-value="${p.charAt(0)}">${p}</button>`).join('')}</div><div id="exam-fb" class="mt-3 hidden"></div></div>`;
+}
+
+function handleExamAAnswer(btn,correct){
+  const selected=btn.dataset.value;
+  const opts=btn.parentElement.querySelectorAll('.option-btn');
+  opts.forEach(o=>{o.disabled=true;o.style.pointerEvents='none';});
+  const fb=document.getElementById('exam-fb');
+  if(selected===correct){
+    btn.classList.add('correct');playCorrect();examState.scoreA++;
+    fb.innerHTML=`<div class="bg-green-50 p-3 rounded-xl text-green-700">✅ Betul!</div>`;
+  } else {
+    btn.classList.add('wrong');playWrong();
+    opts.forEach(o=>{if(o.dataset.value===correct)o.classList.add('correct');});
+    fb.innerHTML=`<div class="bg-red-50 p-3 rounded-xl text-red-700">❌ Jawapan betul: ${correct}</div>`;
+  }
+  fb.classList.remove('hidden');
+  setTimeout(()=>{examState.qIdx++;showExamSection();},2000);
+}
+
+// Bahagian B - Pemahaman with petikan
+function showExamB(c,set){
+  const bB=set.bahagianB;
+  if(examState.qIdx>=bB.soalan.length){
+    examState.phase='C';examState.qIdx=0;
+    c.innerHTML=`<div class="card-style animate-in text-center"><div class="text-4xl mb-3">✍️</div><h3 class="font-bold text-lg">Bahagian C: Penulisan</h3><p class="text-gray-600 text-sm mb-2">${set.bahagianC.arahan}</p><button onclick="showExamSection()" class="btn-primary mt-4 w-full">Teruskan →</button></div>`;
+    return;
+  }
+  const q=bB.soalan[examState.qIdx];
+  const petikanHtml=bB.petikan.replace(/\n/g,'<br>');
+  const progress=((5+examState.qIdx)/14)*100;
+
+  let questionHtml=`<div class="card-style animate-in"><div class="flex justify-between mb-2"><span class="font-bold text-sm text-red-700">${set.title} — Bahagian B</span><span class="text-sm text-gray-500">Soalan ${6+examState.qIdx}/9</span></div><div class="bg-gray-100 rounded-full h-2 mb-3"><div class="bg-red-500 h-full rounded-full" style="width:${progress}%"></div></div><div class="bg-blue-50 p-3 rounded-xl text-sm text-gray-700 mb-3 max-h-32 overflow-y-auto leading-relaxed">${petikanHtml}</div><p class="font-bold text-gray-800 mb-3">${q.s} <span class="text-xs text-gray-400">(${q.markah} markah)</span></p>`;
+
+  if(q.type==='text'){
+    questionHtml+=`<input type="text" id="exam-text-input" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-indigo-500 focus:outline-none" placeholder="Tulis jawapan anda di sini"><button onclick="checkExamTextAnswer()" class="btn-primary w-full mt-3">Hantar</button><div id="exam-fb" class="mt-3 hidden"></div></div>`;
+  } else if(q.type==='text2'){
+    questionHtml+=`<div class="space-y-2"><div class="flex items-center gap-2"><span class="text-sm font-bold">(i)</span><input type="text" id="exam-text-input-1" class="flex-1 border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-indigo-500 focus:outline-none" placeholder="Jawapan pertama"></div><div class="flex items-center gap-2"><span class="text-sm font-bold">(ii)</span><input type="text" id="exam-text-input-2" class="flex-1 border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-indigo-500 focus:outline-none" placeholder="Jawapan kedua"></div></div><button onclick="checkExamText2Answer()" class="btn-primary w-full mt-3">Hantar</button><div id="exam-fb" class="mt-3 hidden"></div></div>`;
+  } else if(q.type==='betul_salah'){
+    questionHtml+=`<div class="space-y-3" id="bs-container">${q.pernyataan.map((p,i)=>`<div class="flex items-center gap-3 p-3 bg-gray-50 rounded-xl"><div class="flex gap-2"><button onclick="selectBS(${i},'/')" id="bs-${i}-betul" class="px-3 py-1 rounded-lg border-2 border-gray-200 text-sm font-bold hover:border-green-500 hover:bg-green-50">✓</button><button onclick="selectBS(${i},'X')" id="bs-${i}-salah" class="px-3 py-1 rounded-lg border-2 border-gray-200 text-sm font-bold hover:border-red-500 hover:bg-red-50">✗</button></div><p class="text-sm flex-1">${p.text}</p></div>`).join('')}</div><button onclick="checkExamBSAnswer()" class="btn-primary w-full mt-3">Hantar</button><div id="exam-fb" class="mt-3 hidden"></div></div>`;
+    window.bsAnswers={};
+  }
+
+  c.innerHTML=questionHtml;
+}
+
+window.bsAnswers={};
+function selectBS(idx,val){
+  window.bsAnswers[idx]=val;
+  document.getElementById(`bs-${idx}-betul`).classList.toggle('border-green-500',val==='/');
+  document.getElementById(`bs-${idx}-betul`).classList.toggle('bg-green-50',val==='/');
+  document.getElementById(`bs-${idx}-salah`).classList.toggle('border-red-500',val==='X');
+  document.getElementById(`bs-${idx}-salah`).classList.toggle('bg-red-50',val==='X');
+  if(val==='/'){document.getElementById(`bs-${idx}-salah`).classList.remove('border-red-500','bg-red-50');}
+  else{document.getElementById(`bs-${idx}-betul`).classList.remove('border-green-500','bg-green-50');}
+}
+
+function flexMatch(input, acceptedAnswers, isFullAnswer=true){
+  // Minimum 2 characters to avoid single letters like 'i'
+  if(input.length<2) return {match:false, score:0};
+  
+  const norm=s=>s.toLowerCase().replace(/[.,!?]/g,'').trim();
+  const n=norm(input);
+  
+  // Check for exact or near-exact match with full answer
+  for(let a of acceptedAnswers){
+    const nA=norm(a);
+    // Exact match = full marks
+    if(n===nA) return {match:true, score:isFullAnswer?1:1, type:'exact'};
+    // Contains key phrase = partial (1 mark for 2-mark questions)
+    if(n.includes(nA) || nA.includes(n)) return {match:true, score:0.5, type:'partial'};
+  }
+  return {match:false, score:0};
+}
+
+function checkExamTextAnswer(){
+  const set=ALL_EXAM_SETS[examState.setIdx];
+  const q=set.bahagianB.soalan[examState.qIdx];
+  const input=document.getElementById('exam-text-input').value.trim();
+  const fb=document.getElementById('exam-fb');
+  if(!input){fb.innerHTML=`<div class="bg-yellow-50 p-3 rounded-xl text-yellow-700">Sila tulis jawapan anda.</div>`;fb.classList.remove('hidden');return;}
+  const result=flexMatch(input,q.jawapan,true);
+  if(result.match){
+    const marks=Math.round(result.score*q.markah);
+    examState.scoreB+=marks;
+    if(result.type==='exact'){playCorrect();fb.innerHTML=`<div class="bg-green-50 p-3 rounded-xl text-green-700">✅ Betul! (+${marks} markah)</div>`;}
+    else{playClick();fb.innerHTML=`<div class="bg-yellow-50 p-3 rounded-xl text-yellow-700">⚠️ Separa betul! (+${marks} markah)<br><span class="text-xs">Jawapan penuh: ${q.jawapan[0]}</span></div>`;}
+  }
+  else{playWrong();fb.innerHTML=`<div class="bg-red-50 p-3 rounded-xl text-red-700">❌ Jawapan cadangan: ${q.jawapan[0]}</div>`;}
+  fb.classList.remove('hidden');
+  document.getElementById('exam-text-input').disabled=true;
+  setTimeout(()=>{examState.qIdx++;showExamSection();},2500);
+}
+
+function checkExamText2Answer(){
+  const set=ALL_EXAM_SETS[examState.setIdx];
+  const q=set.bahagianB.soalan[examState.qIdx];
+  const input1=document.getElementById('exam-text-input-1').value.trim();
+  const input2=document.getElementById('exam-text-input-2').value.trim();
+  const fb=document.getElementById('exam-fb');
+  if(!input1&&!input2){fb.innerHTML=`<div class="bg-yellow-50 p-3 rounded-xl text-yellow-700">Sila tulis jawapan anda.</div>`;fb.classList.remove('hidden');return;}
+  let marks=0;
+  const r1=flexMatch(input1,q.jawapan1,true);
+  const r2=flexMatch(input2,q.jawapan2,true);
+  if(r1.match)marks+=Math.round(r1.score*q.markah/2);
+  if(r2.match)marks+=Math.round(r2.score*q.markah/2);
+  examState.scoreB+=marks;
+  
+  let feedback='';
+  if(r1.match&&r2.match&&r1.type==='exact'&&r2.type==='exact'){
+    playCorrect();feedback=`<div class="bg-green-50 p-3 rounded-xl text-green-700">✅ Betul kedua-duanya! (+${marks} markah)</div>`;
+  }else if(marks>0){
+    playClick();
+    let details=[];
+    if(r1.match)details.push(`(i) ${r1.type==='exact'?'✅':'⚠️'}`);else details.push(`(i) ❌`);
+    if(r2.match)details.push(`(ii) ${r2.type==='exact'?'✅':'⚠️'}`);else details.push(`(ii) ❌`);
+    feedback=`<div class="bg-yellow-50 p-3 rounded-xl text-yellow-700">${details.join(' ')} (+${marks} markah)<br><span class="text-xs">Jawapan: (i) ${q.jawapan1[0]} (ii) ${q.jawapan2[0]}</span></div>`;
+  }else{
+    playWrong();feedback=`<div class="bg-red-50 p-3 rounded-xl text-red-700">❌ Jawapan: (i) ${q.jawapan1[0]} (ii) ${q.jawapan2[0]}</div>`;
+  }
+  fb.innerHTML=feedback;
+  fb.classList.remove('hidden');
+  setTimeout(()=>{examState.qIdx++;showExamSection();},2500);
+}
+
+function checkExamBSAnswer(){
+  const set=ALL_EXAM_SETS[examState.setIdx];
+  const q=set.bahagianB.soalan[examState.qIdx];
+  const fb=document.getElementById('exam-fb');
+  let marks=0;
+  let details=[];
+  q.pernyataan.forEach((p,i)=>{
+    const userAns=window.bsAnswers[i]||'';
+    if(userAns===p.jawapan){marks+=q.markah/q.pernyataan.length;details.push(`✅ "${p.text.slice(0,30)}..." — ${p.jawapan}`);}
+    else{details.push(`❌ "${p.text.slice(0,30)}..." — Jawapan: ${p.jawapan}`);}
+  });
+  examState.scoreB+=marks;
+  if(marks===q.markah){playCorrect();}else{playWrong();}
+  fb.innerHTML=`<div class="p-3 rounded-xl ${marks===q.markah?'bg-green-50 text-green-700':'bg-red-50 text-red-700'}">${details.join('<br>')}<br><span class="font-bold">+${marks} markah</span></div>`;
+  fb.classList.remove('hidden');
+  setTimeout(()=>{examState.qIdx++;showExamSection();},3000);
+}
+
+// Bahagian C
+function showExamC(c,set){
+  const bC=set.bahagianC;
+
+  if(bC.type==='susun'){
+    showExamCSusun(c,set);
+  } else if(bC.type==='bina_ayat'){
+    showExamCBinaAyat(c,set);
+  } else if(bC.type==='isi_cerita'){
+    showExamCIsiCerita(c,set);
+  }
+}
+
+// Set 1 Bahagian C - Susun Perkataan
+function showExamCSusun(c,set){
+  const bC=set.bahagianC;
+  if(examState.qIdx>=bC.soalan.length){
+    examState.phase='result';showExamSection();return;
+  }
+  const q=bC.soalan[examState.qIdx];
+  const progress=((9+examState.qIdx)/14)*100;
+  c.innerHTML=`<div class="card-style animate-in"><div class="flex justify-between mb-2"><span class="font-bold text-sm text-red-700">${set.title} — Bahagian C</span><span class="text-sm text-gray-500">Soalan ${10+examState.qIdx}/14</span></div><div class="bg-gray-100 rounded-full h-2 mb-3"><div class="bg-red-500 h-full rounded-full" style="width:${progress}%"></div></div><p class="text-xs text-gray-500 mb-2">${bC.arahan}</p><p class="font-bold text-gray-800 mb-3">${q.perkataan}</p><input type="text" id="exam-c-input" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-indigo-500 focus:outline-none" placeholder="Tulis ayat yang lengkap"><button onclick="checkExamCSusun()" class="btn-primary w-full mt-3">Hantar</button><div id="exam-fb" class="mt-3 hidden"></div></div>`;
+}
+
+function checkExamCSusun(){
+  const set=ALL_EXAM_SETS[examState.setIdx];
+  const q=set.bahagianC.soalan[examState.qIdx];
+  const input=document.getElementById('exam-c-input').value.trim();
+  const fb=document.getElementById('exam-fb');
+  if(!input){fb.innerHTML=`<div class="bg-yellow-50 p-3 rounded-xl text-yellow-700">Sila tulis jawapan anda.</div>`;fb.classList.remove('hidden');return;}
+  const norm=s=>s.replace(/[.!?]/g,'').trim().toLowerCase();
+  const correct=norm(input)===norm(q.jawapan);
+  if(correct){examState.scoreC+=2;playCorrect();fb.innerHTML=`<div class="bg-green-50 p-3 rounded-xl text-green-700">✅ Betul! (+2 markah)</div>`;}
+  else{playWrong();fb.innerHTML=`<div class="bg-red-50 p-3 rounded-xl text-red-700">❌ Jawapan: ${q.jawapan}</div>`;}
+  fb.classList.remove('hidden');
+  document.getElementById('exam-c-input').disabled=true;
+  setTimeout(()=>{examState.qIdx++;showExamSection();},2500);
+}
+
+// Set 2 Bahagian C - Bina Ayat
+function showExamCBinaAyat(c,set){
+  const bC=set.bahagianC;
+  if(examState.qIdx>=bC.soalan.length){
+    examState.phase='result';showExamSection();return;
+  }
+  const q=bC.soalan[examState.qIdx];
+  const progress=((9+examState.qIdx)/14)*100;
+  c.innerHTML=`<div class="card-style animate-in"><div class="flex justify-between mb-2"><span class="font-bold text-sm text-red-700">${set.title} — Bahagian C</span><span class="text-sm text-gray-500">Soalan ${10+examState.qIdx}/14</span></div><div class="bg-gray-100 rounded-full h-2 mb-3"><div class="bg-red-500 h-full rounded-full" style="width:${progress}%"></div></div><p class="text-xs text-gray-500 mb-2">${bC.arahan}</p><p class="font-bold text-gray-800 mb-3">Kata Kerja: <span class="text-indigo-600">[${q.kata}]</span></p><input type="text" id="exam-c-input" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-indigo-500 focus:outline-none" placeholder="Bina ayat yang lengkap menggunakan kata kerja ini"><button onclick="checkExamCBinaAyat()" class="btn-primary w-full mt-3">Hantar</button><div id="exam-fb" class="mt-3 hidden"></div></div>`;
+}
+
+function checkExamCBinaAyat(){
+  const set=ALL_EXAM_SETS[examState.setIdx];
+  const q=set.bahagianC.soalan[examState.qIdx];
+  const input=document.getElementById('exam-c-input').value.trim();
+  const fb=document.getElementById('exam-fb');
+  if(!input){fb.innerHTML=`<div class="bg-yellow-50 p-3 rounded-xl text-yellow-700">Sila tulis jawapan anda.</div>`;fb.classList.remove('hidden');return;}
+  // Check if kata kerja is used in the sentence
+  const hasKata=input.toLowerCase().includes(q.kata.toLowerCase());
+  const hasMinLength=input.split(' ').length>=4;
+  if(hasKata&&hasMinLength){examState.scoreC+=2;playCorrect();fb.innerHTML=`<div class="bg-green-50 p-3 rounded-xl text-green-700">✅ Bagus! Ayat anda mengandungi kata kerja "${q.kata}". (+2 markah)<br><span class="text-xs text-gray-500">Contoh jawapan: ${q.contoh}</span></div>`;}
+  else if(hasKata){examState.scoreC+=1;playClick();fb.innerHTML=`<div class="bg-yellow-50 p-3 rounded-xl text-yellow-700">⚠️ Ayat terlalu pendek. (+1 markah)<br><span class="text-xs">Contoh: ${q.contoh}</span></div>`;}
+  else{playWrong();fb.innerHTML=`<div class="bg-red-50 p-3 rounded-xl text-red-700">❌ Ayat mesti mengandungi kata kerja "${q.kata}".<br><span class="text-xs">Contoh: ${q.contoh}</span></div>`;}
+  fb.classList.remove('hidden');
+  document.getElementById('exam-c-input').disabled=true;
+  setTimeout(()=>{examState.qIdx++;showExamSection();},3000);
+}
+
+// Set 3 Bahagian C - Isi Tempat Kosong (Cerita)
+function showExamCIsiCerita(c,set){
+  const bC=set.bahagianC;
+  if(examState.qIdx>=bC.soalan.length){
+    examState.phase='result';showExamSection();return;
+  }
+
+  // Show all at once for this type
+  const progress=(9/14)*100;
+  let ceritaDisplay=bC.cerita;
+  const pilihanHtml=bC.pilihanKata.map(k=>`<span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">${k}</span>`).join(' ');
+
+  c.innerHTML=`<div class="card-style animate-in"><div class="flex justify-between mb-2"><span class="font-bold text-sm text-red-700">${set.title} — Bahagian C</span><span class="text-sm text-gray-500">Soalan 10-14</span></div><div class="bg-gray-100 rounded-full h-2 mb-3"><div class="bg-red-500 h-full rounded-full" style="width:${progress}%"></div></div><p class="text-xs text-gray-500 mb-2">${bC.arahan}</p><div class="flex flex-wrap gap-2 mb-4 p-3 bg-indigo-50 rounded-xl"><p class="w-full text-xs font-bold text-indigo-700 mb-1">Pilihan Kata:</p>${pilihanHtml}</div><div class="bg-gray-50 p-4 rounded-xl text-sm leading-relaxed mb-4">${ceritaDisplay}</div><div class="space-y-3">${bC.soalan.map((q,i)=>`<div class="flex items-center gap-2"><span class="text-sm font-bold w-8">S${q.no}.</span><input type="text" id="isi-${i}" class="flex-1 border-2 border-gray-200 rounded-xl px-3 py-2 focus:border-indigo-500 focus:outline-none text-sm" placeholder="Jawapan"></div>`).join('')}</div><button onclick="checkExamCIsiCerita()" class="btn-primary w-full mt-4">Hantar Semua</button><div id="exam-fb" class="mt-3 hidden"></div></div>`;
+}
+
+function checkExamCIsiCerita(){
+  const set=ALL_EXAM_SETS[examState.setIdx];
+  const bC=set.bahagianC;
+  const fb=document.getElementById('exam-fb');
+  let marks=0;let details=[];
+  bC.soalan.forEach((q,i)=>{
+    const input=document.getElementById('isi-'+i).value.trim().toLowerCase();
+    const correct=input===q.jawapan.toLowerCase();
+    if(correct){marks+=2;details.push(`✅ S${q.no}: ${q.jawapan}`);}
+    else{details.push(`❌ S${q.no}: Jawapan betul — ${q.jawapan}`);}
+    document.getElementById('isi-'+i).disabled=true;
+  });
+  examState.scoreC+=marks;
+  if(marks===10)playCorrect();else playWrong();
+  fb.innerHTML=`<div class="p-3 rounded-xl ${marks>=8?'bg-green-50 text-green-700':'bg-red-50 text-red-700'}">${details.join('<br>')}<br><span class="font-bold">+${marks} markah</span></div>`;
+  fb.classList.remove('hidden');
+  // Skip all remaining
+  examState.qIdx=bC.soalan.length;
+  setTimeout(()=>{examState.phase='result';showExamSection();},3000);
+}
+
+// Results
+function showExamResult(c,set){
+  const total=examState.scoreA*2+examState.scoreB+examState.scoreC;
+  const maxMarks=30;
+  const pct=Math.round(total/maxMarks*100);
+  state.examHistory.push({title:set.title,date:new Date().toISOString(),score:total,total:maxMarks});
+  state.weeklyQuizCount++;saveState();
+  if(pct>=80)showConfetti();
+  addXP(total);
+  c.innerHTML=`<div class="card-style animate-in text-center"><div class="text-5xl mb-3">${pct>=80?'🏆':pct>=50?'📊':'💪'}</div><h3 class="font-bold text-xl">${set.title}</h3><p class="text-sm text-gray-500">${set.subtitle}</p><p class="text-4xl font-bold mt-3 ${pct>=80?'text-green-600':pct>=50?'text-amber-600':'text-red-600'}">${total}/${maxMarks}</p><p class="text-gray-500">${pct}%</p><div class="mt-4 text-left card-style text-sm space-y-1"><p>📝 Bahagian A (Sistem Bahasa): <span class="font-bold">${examState.scoreA*2}/10</span></p><p>📖 Bahagian B (Pemahaman): <span class="font-bold">${examState.scoreB}/10</span></p><p>✍️ Bahagian C (Penulisan): <span class="font-bold">${examState.scoreC}/10</span></p></div><button onclick="renderPeperiksaan()" class="btn-primary mt-4 w-full">Kembali ke Senarai</button></div>`;
+}
+
+// ============ PENCAPAIAN ============
+function renderPencapaian(){
+  const c=document.getElementById('pencapaian-content');
+  const needed=state.level*100;
+  const quizCount=state.quizHistory.length+state.examHistory.length;
+  const badges=[{name:'Pemula',req:1,emoji:'🌱'},{name:'Rajin',req:5,emoji:'⭐'},{name:'Bijak',req:10,emoji:'🧠'},{name:'Cemerlang',req:20,emoji:'🏆'},{name:'Pakar',req:50,emoji:'👑'}];
+  c.innerHTML=`<div class="card-style animate-in text-center mb-4"><div class="text-4xl mb-2">${state.avatar}</div><h3 class="font-bold text-xl">${state.name}</h3><p class="text-indigo-600 font-bold">Tahap ${state.level}</p><div class="mt-3"><div class="flex justify-between text-sm"><span>${state.xp} XP</span><span>${needed} XP</span></div><div class="bg-gray-200 rounded-full h-3 mt-1"><div class="bg-indigo-500 h-full rounded-full xp-bar" style="width:${(state.xp/needed)*100}%"></div></div></div><div class="grid grid-cols-3 gap-3 mt-4"><div><p class="text-2xl font-bold text-amber-600">${state.coins}</p><p class="text-xs text-gray-500">Syiling</p></div><div><p class="text-2xl font-bold text-green-600">${state.streak}</p><p class="text-xs text-gray-500">Hari Berturut</p></div><div><p class="text-2xl font-bold text-indigo-600">${quizCount}</p><p class="text-xs text-gray-500">Kuiz</p></div></div></div><div class="card-style"><h4 class="font-bold mb-3">🏅 Lencana</h4><div class="grid grid-cols-2 gap-3">${badges.map(b=>`<div class="p-3 rounded-xl text-center ${quizCount>=b.req?'bg-yellow-50 border border-yellow-200':'bg-gray-50 opacity-50'}"><div class="text-2xl">${b.emoji}</div><p class="font-bold text-sm mt-1">${b.name}</p><p class="text-xs text-gray-500">${quizCount>=b.req?'✅ Diperoleh':`${b.req} kuiz`}</p></div>`).join('')}</div></div>`;
+}
+
+// ============ ULANG KAJI ============
+function renderUlangKaji(){
+  const c=document.getElementById('ulangkaji-content');
+  c.innerHTML=`<div class="card-style animate-in text-center mb-4"><div class="text-4xl mb-2">🔄</div><h3 class="font-bold">Ulang Kaji Pantas</h3><p class="text-gray-600 text-sm">Pilih jenis latihan untuk diulang kaji.</p></div><div class="space-y-3"><button onclick="showView('nota')" class="card-style w-full text-left hover:shadow-lg"><span class="mr-2">📖</span> Nota (Tatabahasa & Kosa Kata)</button><button onclick="showView('membaca')" class="card-style w-full text-left hover:shadow-lg"><span class="mr-2">📚</span> Membaca</button><button onclick="startKuiz()" class="card-style w-full text-left hover:shadow-lg"><span class="mr-2">❓</span> Kuiz Rawak</button></div>`;
+}
+
+// ============ SETTINGS ============
+function renderSettings(){
+  const c=document.getElementById('settings-content');
+  c.innerHTML=`<div class="card-style"><h4 class="font-bold mb-3">👤 Profil</h4><p class="text-gray-600">Nama: <span class="font-bold">${state.name}</span></p><p class="text-gray-600">Umur: <span class="font-bold">${state.age} tahun</span></p></div><div class="card-style"><h4 class="font-bold mb-3">🌙 Paparan</h4><label class="flex items-center justify-between"><span>Mod Gelap</span><input type="checkbox" ${state.settings.dark?'checked':''} onchange="toggleDarkMode()" class="w-5 h-5"></label></div><div class="card-style"><h4 class="font-bold mb-3">🔊 Bunyi</h4><label class="flex items-center justify-between"><span>Kesan bunyi</span><input type="checkbox" ${state.settings.sound?'checked':''} onchange="state.settings.sound=this.checked;saveState()" class="w-5 h-5"></label></div><div class="card-style"><h4 class="font-bold mb-3">🗑️ Data</h4><p class="text-sm text-gray-500 mb-2">Padam semua kemajuan dan mula semula.</p><button onclick="document.getElementById('reset-confirm').classList.remove('hidden')" class="bg-red-100 text-red-700 px-4 py-2 rounded-xl font-medium w-full">Padam Semua Data</button><div id="reset-confirm" class="hidden mt-2 flex gap-2"><button onclick="resetData()" class="flex-1 bg-red-600 text-white rounded-xl py-2 font-bold">Ya, Padam</button><button onclick="document.getElementById('reset-confirm').classList.add('hidden')" class="flex-1 border-2 border-gray-200 rounded-xl py-2 font-semibold">Batal</button></div></div>`;
+}
+function resetData(){localStorage.removeItem('bm2_state');state={name:'',age:8,avatar:'👦',xp:0,coins:0,level:1,badges:[],quizHistory:[],examHistory:[],streak:0,lastDate:'',settings:{sound:true,dark:false},dailyChallengeDate:'',dailyChallengeCompleted:false,weeklyQuizCount:0,weeklyStart:''};document.documentElement.classList.remove('dark');showView('welcome');}
+
+// ============ INIT ============
+function init(){
+  loadState();applyDarkMode();
+  // Background images are now applied via inline styles on each view
+  const ag=document.getElementById('avatar-grid');
+  ag.innerHTML=AVATARS.map(a=>`<button type="button" onclick="selectAvatar(this,'${a}')" class="text-2xl p-2 rounded-xl border-2 ${state.avatar===a?'border-indigo-500 bg-indigo-50':'border-transparent hover:bg-gray-100'}">${a}</button>`).join('');
+  if(state.name){document.getElementById('input-name').value=state.name;document.getElementById('input-age').value=state.age;renderMenuGrid();showView('dashboard');}else{renderMenuGrid();}
+  lucide.createIcons();
+}
+function selectAvatar(btn,avatar){state.avatar=avatar;saveState();document.querySelectorAll('#avatar-grid button').forEach(b=>{b.classList.remove('border-indigo-500','bg-indigo-50');b.classList.add('border-transparent');});btn.classList.add('border-indigo-500','bg-indigo-50');btn.classList.remove('border-transparent');}
+
+document.addEventListener('DOMContentLoaded',init);
+</script>
+ 
+</body></html>
